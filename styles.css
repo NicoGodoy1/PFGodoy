@@ -271,7 +271,7 @@ a:link, a:visited {
 .tarjeta__encabezado {
     position: relative;
 }
-.cursos {
+.proximosEventos {
     display: flex;
     margin-top: 20px;
     padding: 0 20px;
@@ -412,7 +412,6 @@ a:link, a:visited {
 }
 .imagenes__sobreChile {
     display: flex;
-    background-color: #EEEEEE;
     border-radius: 10px;
     width: 500px;
     height: 400px;
@@ -760,6 +759,15 @@ footer {
     width: 500px;
     display: inline-block;
 }
+.noMostrar {
+    display: none;
+}
+header span {
+    display: none;
+}
+.girarTarjetaInicio {
+    display: none;
+}
 /* MEDIA QUERIES  */
 /* mobile last */
 @media (max-width: 992px) {
@@ -768,7 +776,41 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+    header ul {
+        display: none;
+    }
+
+    header span {
+        display: flex;
+        height: 35px;
+        width: 15px;
+        margin-right: 40px;
+        background-color: #647ce7;
+    }
+    .noMostrar a{
+        display: flex ;
+    }
+    .sectionGrid {
+        align-items: center;
+        justify-content: center;
+    }
+    .gridInicio {
+        height: 500px;
+        width: 500px;
+        margin-left: 90px;
+        margin-right: 50px;
+        padding-left: 40px;
+    }
+    .gridInicio img {
+        height: 120px;
+        width: 125px;
+    }
+    .contenidoGrid {
+        height: 500px;
+        width: 400px;
+        padding-top: 20px;
+    }
     .encabezado__contenido-menu {
         display: none;
     }
@@ -776,8 +818,102 @@ footer {
     .encabezado__contenido-menu-celular {
         display: inline-block;
     }
-}
-
+    .sectionGrid {
+        flex-direction: column;
+    }
+    .proximosEventos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjeta {
+        margin-top: 10px;
+    }
+    .girarTarjetaInicio {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .tarjetas_inicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .articulo-inicio {
+        display: flex;
+        flex-direction: column;
+        height: 225px;
+        font-size: 10px;
+        
+    }
+    .tarjetas__contenido-inicio {
+        display: flex;
+        height: 200px;
+        width: 350px;
+        margin: 100px;
+        font-size: 10px;
+    }
+    .tarjetasInicio {
+        display: flex;
+    }
+    .tarjetasInicio img {
+        height: 100px;
+    }
+    .tarjetasMobile {
+        height: 1000px;
+    }
+    .contenido__subtitulo-incio {
+        width: 350px;
+        padding-left: 30px;
+    }
+    .tarjetas_dondeIr {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjetas__dondeIr {
+        margin: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+        width: 200px;
+    }
+    .video__contenido-dondeIr {
+        height: 100px;
+        margin-left: 80px;
+    }
+    .imagen__contenido-dondeIr {
+        margin-left: 20px;
+        width: 250px;
+        height: 200px;
+        padding-top: 20px;
+    }
+    .tarjetas_sobreChile {
+        flex-direction: column;
+        width: 250px;
+    }
+    .imagenes__sobreChile {
+        margin-left: 50px;
+        height:200px;
+        width: 200px;
+    }
+    .contenidos__sobreChile {
+        width: 200px;
+        margin-left: 25px;
+    }
+    .galeria_container {
+        width: 225px;
+        height: 500px;
+        flex-direction: column;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .galeria_container img {
+        width: 100px;
+        height: 100px;
+    }
+    .galeriaHover {
+        width: 100px;
+        height: 100px;
+    }
+/* }
 @media (max-width: 576px) {
     .cursos__contenido {
         grid-template-columns: 1fr;
@@ -790,5 +926,5 @@ footer {
     .estadisticas__contenido-dato {
         margin: 30px 0;
     }
-}
+} */
 /* ---------------------------------------------------- */
