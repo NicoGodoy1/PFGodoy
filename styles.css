@@ -855,10 +855,11 @@ header span {
         display: flex;
     }
     .tarjetasInicio img {
-        height: 100px;
+        height: 200px;
+        width: 350px;
     }
     .tarjetasMobile {
-        height: 1000px;
+        height: 1100px;
     }
     .contenido__subtitulo-incio {
         width: 350px;
