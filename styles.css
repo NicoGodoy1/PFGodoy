@@ -112,9 +112,9 @@ a:link, a:visited {
 }
 .subtitulo_inicio {
     height: 30px;
-    width: 1000px;
+    width: 800px;
     font-size: 20px ;
-    margin: 20px 0px 10px 0px;
+    margin: 20px 0px 10px 50px;
     padding: 5px 5px 5px 5px;
 }
 
@@ -145,13 +145,13 @@ a:link, a:visited {
 .contenido__subtitulo-incio {
     background-color: #FFFFFF;
     border-radius: 10px;
-    margin: 20px 20px 20px 20px;
-    width: 700px;
+    margin: 20px 20px 20px 30px;
+    width: 900px;
     height: 60px; 
     display: inline-block;
     text-align: justify;
     line-height: 35px;
-    font-size: 13px;
+    font-size: 20px;
 }
 .tarjetas_inicio {
     margin: 10px 50px 10px 50px;
@@ -164,6 +164,12 @@ a:link, a:visited {
     align-content: center;
     display: inline;
     height: 400px;
+}
+.efectoArticulo {
+    transition: transform 0.5s ease-out 0.05s;
+}
+.efectoArticulo:hover {
+    transform: scale(1.05);
 }
 .tarjetas__contenido-inicio {
     background-color: #FFFFFF;
@@ -211,6 +217,10 @@ a:link, a:visited {
     margin-bottom: 20px;
     padding: 10px;
 }
+.boton__inicio:hover {
+    background-color: #008CBA;
+    color: white;
+}
 /* TARJETAS INICIO */
 .tarjeta {
     background-color: #fff;
@@ -219,6 +229,14 @@ a:link, a:visited {
     /* eje x, y, difuminacion (mayor mas difuminacion), propagacion (valores positivos se expande), color  */
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
     width: 250px;
+}
+.efectoTarjeta {
+    transition: border 0.3s;
+    transition: transform 0.5s ease-out 0.05s;
+}
+.efectoTarjeta:hover {
+    border: 5px outset #647ce7;
+    transform: scale(1.05);
 }
 .tarjeta__enlace {
     background-color: #030f46;
@@ -284,13 +302,6 @@ a:link, a:visited {
     gap: 40px;
     max-width: 1200px;
     margin: 0 auto;
-}
-.efectoTarjeta {
-    transition: border 0.3s;
-}
-
-.efectoTarjeta:hover {
-    border: 1px solid #000;
 }
 .cursos__titulo {
     margin-bottom: 40px;
@@ -558,8 +569,10 @@ a:link, a:visited {
     padding-top: 5px;
 }
 .fondoConsultas {
-    background-image: linear-gradient(to right, #030f46, #8599f1 ) ;
+    background-image: linear-gradient(to right, #030f46, #8599f1) ;
     margin: 40px;
+    align-items: center;
+    justify-content: center;
 }
 .fieldset__consulta {
     margin: 60px;
@@ -782,6 +795,9 @@ header span {
 }
 
 @media (max-width: 576px) {
+    * {
+        max-width: 500px;
+    }
     header ul {
         display: none;
     }
@@ -847,7 +863,6 @@ header span {
         flex-direction: column;
         height: 225px;
         font-size: 10px;
-        
     }
     .tarjetas__contenido-inicio {
         display: flex;
