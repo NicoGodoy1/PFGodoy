@@ -519,6 +519,12 @@ a:link, a:visited {
 .div__sobreChile {
     display: block;
 }
+/* .card img {
+    height: 150px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+} */
 /*  GALERIA*/
 .sectionGaleria {
     background-color: #FFFFFF;

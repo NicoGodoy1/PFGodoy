@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <section class="sectionSobreChile">
+    <section class="sectionSobreChile container">
         <header class="encabezado">
             <div class="encabezado__contenido">
                 <h3 class="encabezado_titulo">
@@ -38,9 +38,51 @@
             <section class="container p-50 d-flex flex-row"> <!-- acá saqué la clase: tarjetas_sobreChile -->
                 <p class="contenidos__sobreChile text-black container py-5 mx-auto pl-30 col">
                     Para visitar Chile solo tienes que presentar tu documento de identificación (cédula o pasaporte), y dependiendo de tu país de origen, tu visa estampada.Si eres un ciudadano sudamericano, de la Unión Europea, Estados Unidos, Canadá y Australia no necesitas visa como turista. Sin embargo, algunos países deben pagar una tasa en efectivo (impuesto de reciprocidad) al llegar al aeropuerto de Chile.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quisquam assumenda architecto porro repellendus, doloribus eveniet laudantium cupiditate ducimus, quos vitae blanditiis? Molestias nobis modi sed, et ipsa reiciendis voluptatum.
                 </p>
                 <img class="imagenes__sobreChile w-50 m-5 col" src="./recursos/imagenes/documentos-y-requisitos.jpg" alt="">
+            </section>
+            <section>
+                <h2 class="subtitulos_sobreChile pb-5">
+                    Información importante
+                </h2>
+            </section>
+            <section class="container d-flex flex-row justify-content-evenly m-20 mb-20 col-12"> <!-- acá saqué la clase: tarjetas_sobreChile -->
+                <div class="row gy-4"> 
+                    <!-- tarjeta 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card shadow-lg p-3 mb-5 bg-body rounded" >
+                            <img src="./recursos/imagenes/idiomaEspañol.png" class="card-img-top justify-content-md-center align-self-center" height="150" width="250" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Idioma</h5>
+                              <p class="card-text">En Chile el idioma oficial es el español, pero en el territorio también hay comunidades que hablan lenguas autóctonas.</p>
+                              <a href="https://es.wikipedia.org/wiki/Lenguas_de_Chile" class="btn btn-primary col">Leer más</a>
+                            </div>
+                          </div>
+                    </div>
+                  <!-- tarjeta 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                            <img src="./recursos/imagenes/estacionesDel Año2.jpg" class="card-img-top justify-content-md-center align-self-center" height="150" width="250" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Estaciones</h5>
+                              <p class="card-text">Acá vivimos el verano entre enero y marzo y el invierno entre julio y septiembre.
+                                actualmente estamos en Verano</p>
+                              <a href="https://www.learnchile.cl/descubre-como-se-viven-las-estaciones-del-ano-en-chile/" class="btn btn-primary col">Leer más</a>
+                            </div>
+                          </div>
+                    </div>
+                  <!-- tarjeta 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card shadow-lg p-3 mb-5 bg-body rounded ">
+                            <img src="./recursos/imagenes/climaChile.gif" class="card-img-top justify-content-md-center align-self-center" height="150" width="250" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Clima</h5>
+                              <p class="card-text">Encontrarás una gran variedad que va de climas desérticos en el norte, a tundra y clima polar hacia el sur. Montañas nevadas. </p>
+                              <a href="https://es.wikipedia.org/wiki/Clima_de_Chile" class="btn btn-primary col">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section>
                 <h2 class="subtitulos_sobreChile pb-5">
@@ -57,41 +99,6 @@
                     No portes objetos de valor que llamen mucho la atención, en la vía pública.
                     Infórmate constantemente y respeta las medidas de protección contra el COVID 19.
                 </p> 
-            </section>
-            <section>
-                <h2 class="subtitulos_sobreChile pb-5">
-                    Información importante
-                </h2>
-            </section>
-            <section class="container d-flex flex-row"> <!-- acá saqué la clase: tarjetas_sobreChile -->
-                <!-- tarjeta 1 -->
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Idioma</h5>
-                      <p class="card-text">En Chile el idioma oficial es el español, pero en el territorio también hay comunidades que hablan lenguas autóctonas.</p>
-                      <a href="https://es.wikipedia.org/wiki/Lenguas_de_Chile" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <!-- tarjeta 2 -->
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Estaciones</h5>
-                      <p class="card-text">Acá vivimos el verano entre enero y marzo y el invierno entre julio y septiembre.
-                        Actualmente estamos en Verano</p>
-                      <a href="https://www.learnchile.cl/descubre-como-se-viven-las-estaciones-del-ano-en-chile/" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <!-- tarjeta 3 -->
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Clima</h5>
-                      <p class="card-text">Encontrarás una gran variedad que va de climas desérticos en el norte, a tundra y clima polar hacia el sur.</p>
-                      <a href="https://es.wikipedia.org/wiki/Clima_de_Chile" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
             </section>
             <section>
                 <div class="comunicate">
