@@ -251,11 +251,11 @@ a:link, a:visited {
 }
 .efectoTarjeta {
     transition: border 0.3s;
-    /* transition: transform 0.5s ease-out 0.05s; */
+    transition: transform 0.5s ease-out 0.05s;
 }
 .efectoTarjeta:hover {
     border: 5px outset #647ce7;
-    /* transform: scale(1.05); */
+    transform: scale(1.05);
 }
 .tarjeta__enlace {
     background-color: #030f46;
@@ -315,19 +315,6 @@ a:link, a:visited {
     margin-bottom: 25px;
     height: 400px;
 }
-
-/* .cursos__contenido {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.cursos__titulo {
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 30px;
-} */
 .gridHover {
     transition: transform 0.5s ease-out 0.05s;
 }
@@ -411,11 +398,34 @@ a:link, a:visited {
     padding-top: 80px;
 }
 .boton__dondeIr {
-    padding-right: 10s0px;
-    border: 2.5px solid #000;
-    margin-top: 10px ;
-    margin-bottom: 10px;
-    padding: 10px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.boton__dondeIr a{
+    border: none;
+    margin-top: 20px;
+    color: #030f46;
+    background: transparent;
+    border: 4px solid #030f46;
+    border-radius: 6px;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white; 
+    border: 2px solid #030f46;
+}
+.boton__dondeIr:hover a{
+    background-color: #030f46;
+    color: #FFFFFF;
+    font-weight: bolder;
 }
 /* SOBRE CHILE*/
 .sectionSobreChile {
