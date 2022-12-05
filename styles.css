@@ -251,11 +251,11 @@ a:link, a:visited {
 }
 .efectoTarjeta {
     transition: border 0.3s;
-    transition: transform 0.5s ease-out 0.05s;
+    /* transition: transform 0.5s ease-out 0.05s; */
 }
 .efectoTarjeta:hover {
-    border: 5px outset #647ce7;
-    transform: scale(1.05);
+    border: 3px outset #647ce7;
+    /* transform: scale(1.05); */
 }
 .tarjeta__enlace {
     background-color: #030f46;
@@ -319,7 +319,7 @@ a:link, a:visited {
     transition: transform 0.5s ease-out 0.05s;
 }
 .gridHover:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 /* DONDE IR*/
 .sectionDondeIr {
