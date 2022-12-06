@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1800px;
+    margin: 0 auto;
 }
 @font-face {
     font-family: 'Inter', sans-serif;
@@ -143,7 +144,6 @@ a:link, a:visited {
     font-weight: lighter;
 }
 .contenido__subtitulo-incio {
-    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 20px 20px 20px 30px;
     width: 900px;
@@ -172,7 +172,6 @@ a:link, a:visited {
     transform: scale(1.05);
 }
 .tarjetas__contenido-inicio {
-    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 20px;
     width: 400px;
@@ -833,6 +832,7 @@ header span {
 @media (max-width: 576px) {
     * {
         max-width: 500px;
+        max-height: 5000px;
     }
     header ul {
         display: none;
@@ -851,22 +851,25 @@ header span {
     .sectionGrid {
         align-items: center;
         justify-content: center;
+        height: 1100px;
     }
     .gridInicio {
-        height: 500px;
-        width: 500px;
-        margin-left: 90px;
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
         margin-right: 50px;
-        padding-left: 40px;
+        padding-left: 10px;
     }
     .gridInicio img {
-        height: 120px;
-        width: 125px;
+        height: 80px;
+        width: 90px;
     }
     .contenidoGrid {
         height: 500px;
-        width: 400px;
+        width: 300px;
         padding-top: 20px;
+        padding-left: 10px;
+        font-size: 10px;
     }
     .encabezado__contenido-menu {
         display: none;
@@ -882,6 +885,12 @@ header span {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 1500px;
+    }
+    .tituloEventos {
+        height: 50px;
+        margin-top: 100px;
+        padding-top: 100px;
     }
     .tarjeta {
         margin-top: 10px;
@@ -902,24 +911,28 @@ header span {
     }
     .tarjetas__contenido-inicio {
         display: flex;
-        height: 200px;
-        width: 350px;
+        width: 300px;
+        height: 150px;
         margin: 100px;
         font-size: 10px;
     }
     .tarjetasInicio {
         display: flex;
+        height: 400px;
     }
     .tarjetasInicio img {
         height: 200px;
-        width: 350px;
+        width: 300px;
     }
     .tarjetasMobile {
         height: 1100px;
     }
     .contenido__subtitulo-incio {
-        width: 350px;
-        padding-left: 30px;
+        width: 300px;
+        height: 150px;
+        padding-left: 10px;
+        font-size: 12px;
+        margin: 5px;
     }
     .tarjetas_dondeIr {
         flex-direction: column;
@@ -969,6 +982,22 @@ header span {
     .galeriaHover {
         width: 100px;
         height: 100px;
+    }
+    .seccionNuestraDiversidad {
+        height: 1600;
+        width: 300;
+    }
+    .imagen__zoit-dondeIr {
+        border-radius: 20px;
+        margin: 200;
+        padding-top: 20px;
+        margin: 20px 20px 20px 20px;
+        width: 200px;
+        height: 400px;
+    }
+    .imagen__contenido-dondeIr {
+        font-size: 10px;
+        line-height: normal;
     }
 }
 /* }
