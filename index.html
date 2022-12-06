@@ -9,13 +9,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <section class="sectionInicio">
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg  bg-dark navbar-dark h-100">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                    <img class="foto_nav" src="./recursos/imagenes/subsecretariaCuadrado.png"/>
+                    Subsecretaria de Turismo
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./dondeIr.html">Dónde Ir</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./sobrechile.html">Sobre Chile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./consultas.html">Consultas</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+        <!-- </header>
         <header class="encabezado">
             <div class="encabezado__contenido">
                 <h3 class="encabezado_titulo">
@@ -31,11 +63,10 @@
                         <li class="encabezado__contenido-menu-HOVER" ><a href="./sobrechile.html">Sobre Chile</a></li>
                         <li class="encabezado__contenido-menu-HOVER" ><a href="./galeria.html">Galeria</a></li>
                         <li class="encabezado__contenido-menu-HOVER" ><a href="./consultas.html">Consultas</a></li>
-                    </ul>
-                    <span><img src="./recursos/imagenes/menuCelular.png" alt=""></span> 
+                    </ul> 
                 </nav>
             </div>    
-        </header>
+        </header> -->
         <main>
             <section>
                     <div class="titulo__inicio">
@@ -50,19 +81,19 @@
                 </div>
             </section>
             <section>
-                <div>
-                    <div>
+                <div class="container">
+                    <div class="row">
                         <h2 class="subtitulo_inicio">
                             Turismo en Chile, donde lo imposible es posible
                         </h2>
-                        <p class="contenido__subtitulo-incio" >
+                        <p class="col-12" > <!-- class="contenido__subtitulo-incio col-12" -->
                             Desde el extremo norte con el desierto más árido del mundo, hasta el sur austral con hielos eternos y cascadas invertidas, Chile es una invitación difícil de rechazar. Conoce el turismo en Chile, y asómbrate con las experiencias en el extremo sur del mundo.
                         </p>
                     </div>
                 </div>
                 <div>
                     <h2 class="subtitulo_inicio">Descubre nuestra diversidad</h2>
-                    <p class="contenido__subtitulo-incio">
+                    <p class="col-12"> <!-- class="contenido__subtitulo-incio col-12" -->
                         La tranquilidad de vastas explanadas de arena y sol intenso, contrastan con lagunas de intenso color azul, pequeños poblados donde se mantienen intactas las costumbres de sus pueblos originarios y grandes ciudades con hermosas playas.
                     </p>
                 </div>
@@ -211,7 +242,7 @@
             <small class="footer_izquierda">Politicas de Privacidad | Visualizadores y Plug-ins | Correo interno</small>
         </div>
     </footer>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
