@@ -11,7 +11,7 @@
 </head>
 <body>
     <section class="sectionConsultas">
-        <header class="encabezado">
+        <!-- <header class="encabezado">
             <div class="encabezado__contenido">
                 <h3 class="encabezado_titulo">
                     <a class="encabezado__contenido-logo" href="./index.html">
@@ -29,13 +29,45 @@
                     </ul>
                 </nav>
             </div>
+        </header> -->
+        <header>
+            <nav class="navbar navbar-expand-lg  bg-dark navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                    <img class="foto_nav" src="./recursos/imagenes/subsecretariaCuadrado.png"/>
+                    Subsecretaria de Turismo
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./dondeIr.html">Dónde Ir</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./sobrechile.html">Sobre Chile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./consultas.html">Consultas</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         <main>
-            <section class="contact container-fluid h-100 fondoConsultas" id="contact">
+            <section class="container-fluid h-100 bg-primary bg-opacity-50" id="contact">
                 <div class="row h-100 justify-content-md-center d-flex align-items-center shadow-lg" data-aos="fade-up" data-aos-delay="200" data-aos-once="true" data-aos-easing="ease">
                     <div class="col-md-9">
                         <div class="jumbotron py-3">
-                            <h2 class="display-3 text-white">CONSULTAS</h2>
+                            <h2 class="display-3 text-black ">CONSULTAS</h2>
                             <hr class="my-6 text-white">
                             <form>
                                 <div class="form-row d-flex flex-row mb-2 justify-content-around">
@@ -54,7 +86,6 @@
                         </div>
                     </div>
                 </div>
-    
             </section>
             <section>
                 <h2  class="titulo__consultas">
@@ -67,23 +98,25 @@
                     Llámanos y atenderemos tus consultas.
                 </h3>
             </section>
-            <section class="textoImagen bg-primary p-2 text-dark bg-opacity-10">
-                <p class="contenido__consultas">
-                ¡Estamos para ayudarte! El horario de atención de la línea telefónica y el chat de WhatsApp es de lunes a viernes, entre las 9:00 y las 18:00 horas; y sábados de 10:00 a 15:00 horas. Si lo prefieres, también puedes escribirnos a nuestro correo electrónico que está activo las 24 horas y respondemos en el mismo horario de la atención telefónica.
-                </p>
-                <img width="500" height="400" src="./recursos/imagenes/consultas-llamanos.jpg" alt="Consultas telefónicas">
+            <section class="container text-center textoImagen bg-primary p-2 text-dark bg-opacity-10">
+                <div class="row">
+                    <p class="col-12 col-sm-12 col-md-6"> <!-- class: "contenido__consultas"  -->
+                        ¡Estamos para ayudarte! El horario de atención de la línea telefónica y el chat de WhatsApp es de lunes a viernes, entre las 9:00 y las 18:00 horas; y sábados de 10:00 a 15:00 horas. Si lo prefieres, también puedes escribirnos a nuestro correo electrónico que está activo las 24 horas y respondemos en el mismo horario de la atención telefónica.
+                    </p>
+                    <img class="col-12 col-sm-12 col-md-6" width="500" height="400" src="./recursos/imagenes/consultas-llamanos.jpg" alt="Consultas telefónicas">
+                </div>
             </section>
-            <section class="bg-primary p-2 text-dark bg-opacity-10">
-                <h3 class="subtitulo__consultas ">Encuentranos en Google maps</h3>
-                <div class="contactoVideo">
-                    <span>
-                        <ol class= "lista__contactos me-5">
+            <h3 class="subtitulo__consultas ">Encuentranos en Google maps</h3>
+            <section class=" container bg-primary p-2 text-dark bg-opacity-10">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <ol> <!--class= "lista__contactos me-5" -->
                             <ol><strong>Teléfono:</strong> 600 600 60 66</ol>
                             <ol><strong>Correo electrónico:</strong> turismoatiende@sernatur.cl</ol>
                             <ol><strong>WhatsApp:</strong> +56 9 9458 0453</ol>
                         </ol>
-                    </span>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3114609985128!2d-70.63004198507485!3d-33.44119110442268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5821d9484d9%3A0xed42f84ea8a84de6!2sAv.%20Condell%20679%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses-419!2sar!4v1668598359944!5m2!1ses-419!2sar" width="450" height="250" style="border:100;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <iframe class="col-12 col-sm-12 col-md-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3114609985128!2d-70.63004198507485!3d-33.44119110442268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5821d9484d9%3A0xed42f84ea8a84de6!2sAv.%20Condell%20679%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses-419!2sar!4v1668598359944!5m2!1ses-419!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <section>

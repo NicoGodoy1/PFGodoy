@@ -696,27 +696,20 @@ a:link, a:visited {
 .mapa {
     display: flex;
 }
-.contactoVideo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 40px;
-    margin-left: 80px;
-}
 .foto-consultas {
     width: 1200px;
     height: 600px;
     margin: 50px;
 }
 .contenido__consultas {
-    border-radius: 50px;
+    /* border-radius: 50px;
     padding-bottom: 50px;
     width: 400px;
-    height: 200px; 
+    height: 200px;  */
     display: inline-block;
     text-align: justify;
-    line-height: 30px;
-    font-size: 15px;
+    /* line-height: 30px; */
+    /* font-size: 15px; */
     margin: 0px 200px 0px 50px;
 }
 
