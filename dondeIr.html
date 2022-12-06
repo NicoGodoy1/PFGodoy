@@ -7,10 +7,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./recursos/imagenes/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./recursos/imagenes/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-    <section class="sectionDondeIr container text-center">
+    <!-- <section class="sectionDondeIr container text-center">
         <header class="encabezado">
             <div class="encabezado__contenido">
                 <h3 class="encabezado_titulo">
@@ -29,40 +31,64 @@
                     </ul>
                 </nav>
             </div>    
+        </header> -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark bg-primary.bg-gradient">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">
+                    <img class="foto_nav" src="./recursos/imagenes/subsecretariaCuadrado.png"/>
+                    Subsecretaria de Turismo
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./dondeIr.html">Dónde Ir</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./sobrechile.html">Sobre Chile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./consultas.html">Consultas</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
         <main>
             <section>
-                <h1>Dónde ir</h1> <!-- class="titulo__imagen-dondeIr" -->
-                <h2 >  <!-- class="subtitulo__imagen-dondeIr" -->
+                <h1 class="titulo__imagen-dondeIr" >Dónde ir</h1> <!-- class="titulo__imagen-dondeIr" -->
+                <h2 class="subtitulo__imagen-dondeIr">  <!-- class="subtitulo__imagen-dondeIr" -->
                     <a>Lugares para visitar</a>
                 </h2>
-            </section>
-
-            <section class="container text-center">
-                <div class="row">
-                  <div class="col">TEXTO</div>
-                  <div class="col">IMAGEN</div>
-                </div>
-            </section>
-            
+            </section>            
             <section class="container text-center">
                 <div class="row" >  <!-- class= tarjetas_dondeIr" -->
-                    <p class="col-12 col-sm-6 lead">  <!-- class="video__contenido-dondeIr" -->
+                    <p class="col-12 col-sm-12 col-md-6 lead">  <!-- class="video__contenido-dondeIr" -->
                         En este video, presentaremos más de los 10 mejores lugares en Chile que necesitas revisar antes del viaje:
                         1. Valparaiso  2. Cordillera de los Andes 3. Santiago 4. Patagonia 5. Chiloé 6. Parque nacional Torres del Paine 7. Viña del Mar   8. San Pedro de Atacama  9. Punta Arenas  10. Río Puelo  11. Pucón             12. Isla de Pascua
                     </p>
-                    <iframe class="img-fluid col-12 col-sm-6" src="https://www.youtube.com/embed/ZVe80q5gt1Q" title="YouTube video player" width="500" height="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="img-fluid ol-12 col-sm-12 col-md-6 " src="https://www.youtube.com/embed/ZVe80q5gt1Q" title="YouTube video player" width="500" height="400" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
                 <section>
-                    <h2>  <!-- class="subtitulos_dondeIr" -->
+                    <h2 class="subtitulos_dondeIr">  <!-- class="subtitulos_dondeIr" -->
                         <a >Zonas de interés turístico</a>
                     </h2>
                     <h3>¿Qué son las Zonas de Interés Turístico?</h3> <!-- class="subtitulos_dondeIr" -->
                     <div class="container text-center ">
                         <div class="row"> <!--class="tarjetas_dondeIr" -->
-                            <img class=" img-fluid col-12 col-sm-6 " src="./recursos/imagenes/zonas-de-interes-turistico.jpg" alt="Zonas de interés turístico"> <!-- class="imagen__zoit-dondeIr -->
-                            <p class="col-12 col-sm-6  lead"> <!--class="imagen__contenido-dondeIr -->
+                            <img class=" img-fluid col-12 col-sm-12 col-md-6" src="./recursos/imagenes/zonas-de-interes-turistico.jpg" alt="Zonas de interés turístico"> <!-- class="imagen__zoit-dondeIr -->
+                            <p class="col-12 col-sm-12 col-md-6 px-5 lead"> <!--class="imagen__contenido-dondeIr -->
                                 Las Zonas de Interés Turístico, o ZOIT, de acuerdo al artículo 13 de la Ley N° 20.423 del año 2010, son “los territorios comunales, intercomunales o determinadas áreas dentro de éstos, que tengan condiciones especiales para la atracción turística y que requieran medidas de conservación y una planificación integrada para promover las inversiones del sector privado”.
                                 Se destaca que, de acuerdo al artículo 17 de la Ley N° 20.423, “las Zonas de Interés Turístico tendrán carácter prioritario para la ejecución de programas y proyectos públicos de fomento al desarrollo de esta actividad, como asimismo para la asignación de recursos destinados a obras de infraestructura y equipamiento necesarios”. 
                                 La ZOIT es un instrumento de gestión público-privada para el fomento de la actividad turística que se elabora y ejecuta a través de la participación, coordinación y compromiso público-privado. Existen beneficios directos e indirectos de ser ZOIT.
@@ -102,5 +128,6 @@
             </a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

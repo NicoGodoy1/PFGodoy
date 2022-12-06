@@ -38,12 +38,8 @@ li {
 /* ENCABEZADO */
 .encabezado {
     background-color: #030f46;
-    padding: 50px 20px;
     height: 150px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    /* z-index: 1; */
 }
 .encabezado__contenido-logo {
     color: #e2e8f0;
