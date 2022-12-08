@@ -117,11 +117,15 @@ a:link, a:visited {
     margin: 20px 0px 20px 0px;
     padding-bottom: 5px
 }
+.estadisticasFondo {
+    background-image: linear-gradient(to right, #030f46, #8599f1) ;
+    color: #FFFFFF;
+}
 .estadisticasInicio p {
     height: 40px;
     width: 500px;
     margin: 20px 100px 20px 80px;
-    font-style: italic;
+    font-style:oblique;
     font-size: 10px;
     line-height: 30px;
     font-weight: lighter;
