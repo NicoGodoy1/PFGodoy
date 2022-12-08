@@ -133,6 +133,7 @@ a:link, a:visited {
     max-width: 1400px;
     text-align: center;
     align-items: center;
+    background: #FFFFFF ;
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
@@ -306,6 +307,7 @@ a:link, a:visited {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    background: #FFFFFF ;
 }
 .contenidoGrid {
     justify-content: center;
