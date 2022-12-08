@@ -109,14 +109,14 @@ a:link, a:visited {
     font-size: 25;
 }
 .subtituloInicio {
-    height: 30px;
-    width: 800px;
-    font-size: 23px ;
-    margin: 20px 0px 30px 50px;
-    padding: 5px 5px 5px 5px;
-    background-color: #647ce7;
-    margin: 0 auto;
-    color:#EEEEEE;
+    background-color: #8599f1;
+    color: #EEEEEE;
+    max-width: 1800px;
+    height: 35px; 
+    border-top: 70px;
+    padding-left: 20px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 5px
 }
 .estadisticasInicio p {
     height: 40px;
@@ -134,21 +134,21 @@ a:link, a:visited {
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
-    margin: 20px 20px 20px 30px;
-    width: 900px;
-    height: 60px; 
+    margin: 20px 10px 20px 20px;
+    /* width: 900px; */
+    height: 70px; 
     display: inline-block;
     text-align: justify;
     line-height: 20px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .tarjetasInicio {
-    margin: 20px 80px 20px 80px;
-    border-radius: 50px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
 }    
 .articuloInicio {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .efectoArticulo {
     transition: transform 0.5s ease-out 0.05s;
@@ -156,7 +156,7 @@ a:link, a:visited {
 .efectoArticulo:hover {
     transform: scale(1.05);
 }
-.tarjetas__contenido-inicio {
+.tarjetas_contenido-inicio {
     border-radius: 10px;
     margin: 20px;
     width: 400px;
@@ -171,15 +171,6 @@ a:link, a:visited {
     position: relative;
     display: inline-block;
 }
-.tarjetasInicio img {
-    height: 300px;
-    width: 400px;
-    border: 250px;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
-}
 .tarjetasInicio small{
     position: absolute;
     left: 30px;
@@ -193,6 +184,15 @@ a:link, a:visited {
     padding-left: 30px;
     border-radius: 0px 0px 5px 5px;
     font-size: 10px;
+}
+.contenidoImagenInicio {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    margin-top: 30px;
 }
 .boton__inicio {
     border: none;
@@ -243,7 +243,6 @@ a:link, a:visited {
 }
 .tarjetaContenidoInicio {
     text-align: justify;
-    padding-top: 30px;
 }
 .tarjeta__enlace {
     background-color: #030f46;
@@ -389,7 +388,7 @@ header span {
     border-top: 70px;
     padding-left: 20px;
     margin: 20px 0px 20px 0px;
-    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .tarjetasDondeIr {
     margin-top: 40px;
@@ -817,7 +816,7 @@ footer {
         padding-top: 20px;
         padding-left: 10px;
         margin: 20px 20px 20px 20px;
-        font-size: 10px;
+        font-size: 20px;
     }
     .encabezado__contenido-menu {
         display: none;
@@ -947,6 +946,25 @@ footer {
         font-size: 10px;
         line-height: normal;
     }
+    .contenidoImagenInicio {
+        display: inline-block;
+        text-align: justify;
+        font-size: 16px;
+        margin: 20px 0px 20px 0px;
+        padding-bottom: 10px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    .contenidoSubtituloIncio {
+        border-radius: 10px;
+        margin: 20px 10px 20px 20px;
+        /* width: 900px; */
+        height: 70px; 
+        display: inline-block;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 16px;
+    }
 } 
 @media (max-width: 576px) {
     .cursos__contenido {
@@ -973,6 +991,17 @@ footer {
         margin-right: 40px;
         margin-bottom: 10px;
         text-align: start;
+    }
+} 
+@media (max-width: 498px) {
+    .contenidoImagenInicio {
+        display: inline-block;
+        text-align: justify;
+        font-size: 14px;
+        margin: 20px 0px 20px 0px;
+        padding-bottom: 10px;
+        line-height: 20px;
+        margin-top: 10px;
     }
 } 
 /* ---------------------------------------------------- */
