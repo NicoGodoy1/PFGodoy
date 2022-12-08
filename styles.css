@@ -391,14 +391,8 @@ header span {
     margin: 20px 0px 20px 0px;
     padding-top: 5px;
 }
-.tarjetas_dondeIr {
-    display: flex;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
-    border: #EEEEEE;
-    border-radius: 50px;
-    align-items:center;
-    margin: 50px 50px 20px 100px;
+.tarjetasDondeIr {
+    margin-top: 40px;
 } 
 .imagen__zoit-dondeIr {
     border-radius: 20px;
@@ -410,32 +404,25 @@ header span {
 }
 .tarjetas__dondeIr img {
     background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
 }
-.imagen__contenido-dondeIr {
-    display: flex;
-    border-radius: 10px;
+.contenidoImagen {
     display: inline-block;
     text-align: justify;
-    font-size: 15px;
-    margin: 20px 20px 100px 100px;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
     padding-bottom: 20px;
-    padding: 80px 0px 0px 20px;
-    width: 400px;
-    height: 700px; 
-    line-height: 30px;
+    line-height: 40px;
+    margin-top: 50px;
 }
-.video__contenido-dondeIr {
-    display: flex;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    margin: 20px 100px 20px 20px;
-    width: 500px;
-    height: 400px; 
+.contenidoVideo {
+    margin: 20px 0px 20px 0px;
+    height: 250px; 
     display: inline-block;
-    text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
-    padding-top: 80px;
+    padding-top: 20px;
+    text-align: justify;
 }
 .boton__dondeIr {
     border: none;
