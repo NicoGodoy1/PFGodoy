@@ -104,6 +104,7 @@ a:link, a:visited {
     margin: 20px 20px 20px 20px;
     font-size: 25;
 }
+
 .subtituloInicio {
     background-color: #8599f1;
     color: black;
@@ -143,6 +144,7 @@ a:link, a:visited {
     text-align: justify;
     line-height: 20px;
     font-size: 20px;
+    background: #FFFFFF;
 }
 .tarjetasInicio {
     margin: 20px 20px 20px 20px;
