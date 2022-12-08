@@ -138,13 +138,14 @@ a:link, a:visited {
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
-    margin: 20px 10px 20px 20px;
-    height: 70px; 
+    margin: 20px 10px 20px 10px;
+    height: 100px; 
     display: inline-block;
     text-align: justify;
     line-height: 20px;
     font-size: 20px;
     background: #FFFFFF;
+    padding-top: 20px;
 }
 .tarjetasInicio {
     margin: 20px 20px 20px 20px;
@@ -200,6 +201,10 @@ a:link, a:visited {
 .boton__inicio {
     border: none;
 }
+.boton__inicio {
+    
+    background: #FFFFFF ;
+}
 .boton__inicio a{
     border: none;
     margin-top: 20px;
@@ -218,7 +223,7 @@ a:link, a:visited {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: white; 
+    background: #FFFFFF ;
     border: 2px solid #030f46;
 }
 .boton__inicio:hover a{
@@ -310,6 +315,7 @@ a:link, a:visited {
     justify-content: space-evenly;
     margin-top: 30px;
     background: #FFFFFF ;
+    margin-bottom: 50px;
 }
 .contenidoGrid {
     justify-content: center;
