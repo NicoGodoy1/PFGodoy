@@ -13,5 +13,5 @@
 - *Bootstrap 5.2*
 
 ## Descripción de Proyecto
-*En este proyecto intendo realizar una página institucional chilena sobre turismo aplicando
+*En este proyecto intento realizar una página institucional chilena sobre turismo aplicando
 los conocimiento que aprendo en el curso de _Desarrollo Web_ de CoderHouse.*
