@@ -615,8 +615,6 @@ header span {
 
 .fondoConsultas {
     background-image: linear-gradient(to right, #030f46, #8599f1) ;
-    margin-top: 20px;
-    height: 500px; width: 700px;
 }
 .fieldset__consulta {
     margin: 60px;
