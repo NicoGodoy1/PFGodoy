@@ -556,32 +556,29 @@ header span {
     overflow: hidden;
 }
 .galeria_container {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     justify-items:center;
-    height: 1000px;
-    width: 1000px;
-    margin-left: 80px;
-    overflow: hidden;
+    margin-left: 40px;
+   
 }
 .galeria_container div {
     display: inline-block;
-    display: grid;
-    height: 100%;
-    width: 100%;
-    /* overflow: hidden; */
+    /* display: grid; */
+    /* height: 100%;
+    width: 100%; */
+    overflow: hidden;
 }
 .galeriaHover {
     transition: transform 1s ease-out 0.5s;
     padding: 1px 1px 1px 1px ;
-    overflow: hidden;
     height: 200px;
     width: 250px;
     align-items: center; 
     justify-content: center; 
+    overflow: hidden;
 }
 .galeriaHover:hover {
     transform: scale(1.3);
