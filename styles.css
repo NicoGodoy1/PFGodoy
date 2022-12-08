@@ -476,44 +476,41 @@ header span {
     background-color: #8599f1;
     color: #EEEEEE;
     max-width: 1800px;
-    height: 35px; 
+    height: 40px; 
     border-top: 70px;
     padding-left: 20px;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     padding-top: 5px;
+    padding-bottom: 10px;
 }
 .imagenesSobreChile {
-    border-radius: 10px;
-    height: 400px;
-    display: inline-block;
-    text-align: justify;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-right: 100px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
 }
 .contenidosSobreChile {
-    height: 300px; 
     display: inline-block;
     text-align: justify;
-    line-height: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 15px;
-    padding-left: 0px;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
 }
+
 .contenidosSobreChile ol {
-    padding: 0px;
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    margin-top: 10px;
 }
 .section__lista {
     border: 250;
     margin: 400px;
     background-color: yellow;
 }
-.tarjetas_sobreChile {
-    margin-top: 40px;
-    margin-bottom: 40px;
-} 
 .sobreChile__parrafos {
     background-color: #f5f5f5;
     border-radius: 50px;
@@ -965,8 +962,18 @@ footer {
         line-height: 20px;
         font-size: 16px;
     }
+    .contenidosSobreChile p {
+        display: inline-block;
+        text-align: justify;
+        font-size: 20px;
+        margin: 20px 0px 20px 0px;
+        padding-bottom: 10px;
+        line-height: 30px;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
 } 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     .cursos__contenido {
         grid-template-columns: 1fr;
     }
@@ -981,18 +988,13 @@ footer {
     .tarjetas_sobreChile {
         height: 500px;
     }
-    .contenidosSobreChile ol {
-        width: 400px;
-        margin-right: 40px;
-        text-align: start;
-    }
-    .contenidosSobreChile ul {
+    .contenidosSobreChile p {
         width: 400px;
         margin-right: 40px;
         margin-bottom: 10px;
         text-align: start;
     }
-} 
+}  */
 @media (max-width: 498px) {
     .contenidoImagenInicio {
         display: inline-block;
