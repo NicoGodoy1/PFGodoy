@@ -195,7 +195,7 @@ a:link, a:visited {
 }
 .boton__inicio {
     border: none;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
 }
 .boton__inicio a{
     border: none;
