@@ -1,4 +1,4 @@
-# PROJECTO DESARROLLO WEB: SEGUNDO DESAFIO
+# PROYECTO DESARROLLO WEB: SEGUNDO DESAFIO
 *Nombre del archivo: PreEntrega2Godoy*
 
 ## Nombre del alumno
