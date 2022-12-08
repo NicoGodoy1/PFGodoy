@@ -118,7 +118,7 @@ a:link, a:visited {
     padding-bottom: 5px
 }
 .estadisticasFondo {
-    background-image: linear-gradient(to right, #030f46, #8599f1) ;
+    background-image: radial-gradient(circle, #030f46, #8599f1) ;
     color: #FFFFFF;
 }
 .estadisticasInicio p {
