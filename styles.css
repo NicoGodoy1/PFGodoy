@@ -18,8 +18,6 @@
 
 body {
     background-color: #e6e6e6;
-    /* font-family: 'Inter', sans-serif;
-    font-weight: normal; */
 }
 
 /* GLOBAL */
@@ -52,7 +50,6 @@ li {
     font-size: 17px;
 }
 .encabezado__contenido-menu-HOVER:hover a{
-    /* color: #FFFFFF; */
     color: #8599f1;
     filter: blur(0.6px);
 }
@@ -138,7 +135,6 @@ a:link, a:visited {
 .contenidoSubtituloIncio {
     border-radius: 10px;
     margin: 20px 10px 20px 20px;
-    /* width: 900px; */
     height: 70px; 
     display: inline-block;
     text-align: justify;
@@ -199,7 +195,6 @@ a:link, a:visited {
 }
 .boton__inicio {
     border: none;
-    /* background-color: #FFFFFF; */
 }
 .boton__inicio a{
     border: none;
@@ -214,7 +209,7 @@ a:link, a:visited {
     display: inline-block;
     font-size: 10px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     text-decoration: none;
@@ -232,17 +227,14 @@ a:link, a:visited {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    /* eje x, y, difuminacion (mayor mas difuminacion), propagacion (valores positivos se expande), color  */
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
     width: 250px;
 }
 .efectoTarjeta {
     transition: border 0.3s;
-    /* transition: transform 0.5s ease-out 0.05s; */
 }
 .efectoTarjeta:hover {
     border: 1px outset #647ce7;
-    /* transform: scale(1.05); */
 }
 .tarjetaContenidoInicio {
     text-align: justify;
@@ -263,7 +255,6 @@ a:link, a:visited {
 .tarjeta__enlace:hover {
     background-color:#647ce7;
     color: #e2e8f0;
-    
 }
 .tarjeta__descripcion {
     height: 20px;
@@ -443,7 +434,7 @@ header span {
     display: inline-block;
     font-size: 10px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     cursor: pointer;
     text-decoration: none;
@@ -566,9 +557,6 @@ header span {
 }
 .galeria_container div {
     display: inline-block;
-    /* display: grid; */
-    /* height: 100%;
-    width: 100%; */
     overflow: hidden;
 }
 .galeriaHover {
@@ -715,7 +703,6 @@ header span {
     text-align: justify;
     margin: 0px 200px 0px 50px;
 }
-
 /* ---------------------------------------------------- */
 footer {
     color: grey;
