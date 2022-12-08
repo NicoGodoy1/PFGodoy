@@ -649,6 +649,15 @@ header span {
 .nombreConsultas input{
     border-radius: 5px;
 }
+.contenidoImagenConsultas {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+}
 .correoConsultas {
     height: 20px;
     width: 40px;
