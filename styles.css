@@ -604,8 +604,9 @@ header span {
     text-align: center;
 }
 .subtitulo__consultas {
-    background-color: #8599f1;
-    color: #EEEEEE;
+    background-color: #030f46 ;
+    opacity: .6;
+    color: white;
     max-width: 1800px;
     height: 35px; 
     border-top: 10px;
