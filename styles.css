@@ -989,28 +989,6 @@ footer {
         margin-top: 50px;
     }
 } 
-/* @media (max-width: 576px) {
-    .cursos__contenido {
-        grid-template-columns: 1fr;
-    }
-
-    .estadisticas__contenido {
-        flex-direction: column;
-    }
-
-    .estadisticas__contenido-dato {
-        margin: 30px 0;
-    }
-    .tarjetas_sobreChile {
-        height: 500px;
-    }
-    .contenidosSobreChile p {
-        width: 400px;
-        margin-right: 40px;
-        margin-bottom: 10px;
-        text-align: start;
-    }
-}  */
 @media (max-width: 498px) {
     .contenidoImagenInicio {
         display: inline-block;
