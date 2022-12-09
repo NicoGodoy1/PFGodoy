@@ -541,14 +541,15 @@ header span {
     background-color: #FFFFFF;
 }
 .titulo-galeria {
-    background-color: #647ce7;
+    background-color: #030f46 ;
+    opacity: .8;
     color: #EEEEEE;
     max-width: 1600px;
     height: 50px; 
     border-top: 100px;
     padding-left: 20px;
+    padding-bottom: 30px;
     margin: 20px;
-    padding-top: 10px;
     text-align: center;
 }
 .galeria_container img{
