@@ -979,6 +979,15 @@ footer {
         background: #FFFFFF;
         padding-top: 20px;
     }
+    .contenidoImagenConsultas {
+        display: inline-block;
+        text-align: justify;
+        font-size: 17px;
+        margin: 20px 0px 20px 0px;
+        padding-bottom: 20px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
 } 
 /* @media (max-width: 576px) {
     .cursos__contenido {
