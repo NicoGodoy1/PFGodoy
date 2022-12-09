@@ -463,7 +463,8 @@ header span {
     background-color: #FFFFFF;
 }
 .titulos_sobreChile {
-    background-color: #647ce7;
+    background-color: #030f46 ;
+    opacity: .8;
     color: #EEEEEE;
     max-width: 1800px;
     height: 50px; 
