@@ -480,8 +480,9 @@ header span {
 }
 
 .subtitulos_sobreChile {
-    background-color: #8599f1;
-    color: #EEEEEE;
+    background-color: #030f46 ;
+    opacity: .6;
+    color: white;
     max-width: 1800px;
     height: 40px; 
     border-top: 70px;
