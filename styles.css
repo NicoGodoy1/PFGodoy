@@ -106,8 +106,9 @@ a:link, a:visited {
 }
 
 .subtituloInicio {
-    background-color: #8599f1;
-    color: black;
+    background-color: #030f46 ;
+    opacity: .6;
+    color: white;
     max-width: 1800px;
     height: 35px; 
     border-top: 70px;
