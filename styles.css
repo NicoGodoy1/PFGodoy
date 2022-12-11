@@ -1023,7 +1023,6 @@ footer {
         margin-top: 5px;
     }
     .efectoTarjeta {
-        width: 300px;
         margin-bottom: 20px;
     }
     .contenidoTituloSobreChile {
@@ -1033,13 +1032,7 @@ footer {
         padding-top: 30px;
     }
 } 
-@media (max-width: 857px) {
-    .contenidoTituloSobreChile {
-        background-color: #FFFFFF;
-        margin: 0px 10px 0px 10px;
-        height: 150px;
-        padding-top: 30px;
-    }
+@media (max-width: 498px) {
     .contenidoImagenInicio {
         display: inline-block;
         text-align: justify;
@@ -1050,4 +1043,12 @@ footer {
         margin-top: 10px;
     }
 } 
+@media (max-width: 857px) {
+    .contenidoTituloSobreChile {
+        background-color: #FFFFFF;
+        margin: 0px 10px 0px 10px;
+        height: 150px;
+        padding-top: 30px;
+    }
+}
 /* ---------------------------------------------------- */
