@@ -908,7 +908,7 @@ footer {
     }
     .tarjetas_sobreChile {
         flex-direction: column;
-        width: 250px;
+        width: 450px;
     }
     .imagenes__sobreChile {
         margin-left: 50px;
@@ -971,14 +971,14 @@ footer {
         font-size: 16px;
     }
     .contenidosSobreChile p {
-        display: inline-block;
-        text-align: justify;
-        font-size: 20px;
-        margin: 20px 0px 20px 0px;
+        /* display: inline-block;
+        text-align: justify; */
+        font-size: 14px;
+        margin: 5px 0px 5px 0px;
         padding-bottom: 10px;
-        line-height: 30px;
+        line-height: 15px;
         margin-top: 10px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .contenidoSubtituloIncio {
         border-radius: 10px;
@@ -1012,6 +1012,9 @@ footer {
         padding: 0px 5px 0px 5px;
         font-size: 15px;
         margin-top: 5px;
+    }
+    .efectoTarjeta {
+        width: 300px;
     }
 } 
 @media (max-width: 498px) {
