@@ -15,14 +15,14 @@
 @font-face {
     font-family: 'Inter', sans-serif;
     src: url('./recursos/tipografias/Inter-VariableFont_slnt\,wght.ttf');
-    font-weight: normal; 
+    font-weight: bold; 
 }
 
 body {
     background-color: #e6e6e6;
     font-family: 'Inter', sans-serif;
     src: url('./recursos/tipografias/Inter-VariableFont_slnt\,wght.ttf');
-    font-weight: normal;
+    font-style: normal;
 }
 
 /* GLOBAL */
