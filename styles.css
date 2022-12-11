@@ -1031,6 +1031,9 @@ footer {
         height: 200px;
         padding-top: 30px;
     }
+    .contenidoTituloSobreChile {
+        padding-top: 10px;
+    }
 } 
 @media (max-width: 498px) {
     .contenidoImagenInicio {
