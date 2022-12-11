@@ -340,6 +340,10 @@ a:link, a:visited {
     text-align: justify;
     display: inline;
 }
+.contenidoGrid h3{
+    margin-top: 47px;
+
+}
 .gridInicio {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
