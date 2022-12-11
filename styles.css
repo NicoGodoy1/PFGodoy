@@ -743,9 +743,8 @@ footer {
     font-size: 10px;
 }
 .footer_izquierda {
-    margin-left: 50px;
-    margin-right: 10;
-    margin: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .comunicate {
     position: fixed;
