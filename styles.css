@@ -106,6 +106,7 @@ a:link, a:visited {
     text-align: center;
     margin: 20px 20px 20px 20px;
     font-size: 25;
+    padding-top: 10px;
 }
 
 .subtituloInicio {
