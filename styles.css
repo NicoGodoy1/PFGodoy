@@ -210,7 +210,6 @@ a:link, a:visited {
     border: none;
 }
 .boton__inicio {
-    
     background: #FFFFFF ;
 }
 .boton__inicio a{
@@ -233,6 +232,7 @@ a:link, a:visited {
     text-transform: uppercase;
     background: #FFFFFF ;
     border: 2px solid #030f46;
+    font-weight: bold;
 }
 .boton__inicio:hover a{
     background-color: #030f46;
@@ -466,6 +466,7 @@ header span {
     text-transform: uppercase;
     background-color: white; 
     border: 2px solid #030f46;
+    font-weight: bold;
 }
 .boton__dondeIr:hover a{
     background-color: #030f46;
