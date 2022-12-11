@@ -747,6 +747,12 @@ header span {
     text-align: justify;
     margin: 0px 200px 0px 50px;
 }
+hoverRedesSociales {
+    transition: transform 1s ease-out 0.5s;
+}
+hoverRedesSociales:hover {
+    transform: scale(1.1);
+}
 /* ---------------------------------------------------- */
 footer {
     color: grey;
