@@ -14,4 +14,4 @@
 
 ## Descripción de Proyecto
 *En este proyecto intento realizar una página institucional chilena sobre turismo aplicando
-los conocimiento que aprendo en el curso de _Desarrollo Web_ de CoderHouse.*
+los conocimientos que aprendo en el curso de _Desarrollo Web_ de CoderHouse.*
