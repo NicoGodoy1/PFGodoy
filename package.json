@@ -1,0 +1,23 @@
+{
+  "name": "preentrega2godoy",
+  "version": "1.0.0",
+  "description": "*Nombre del archivo: PreEntrega2Godoy*",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss scss/main.scss css/estilos.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoGodoy1/coderProyecto.git"
+  },
+  "keywords": [],
+  "author": "Nicolás Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoGodoy1/coderProyecto/issues"
+  },
+  "homepage": "https://github.com/NicoGodoy1/coderProyecto#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
