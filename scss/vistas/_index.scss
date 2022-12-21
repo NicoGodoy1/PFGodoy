@@ -1,0 +1,136 @@
+.tarjeta {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    width: 250px;
+}
+.efectoTarjeta {
+    transition: border 0.3s;
+}
+.efectoTarjeta:hover {
+    border: 1px outset #647ce7;
+}
+.tarjetaContenidoInicio {
+    text-align: justify;
+}
+.tarjeta__enlace {
+    background-color: #030f46;
+    opacity: 0.9;
+    width: 210px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    color: #e2e8f0;
+    padding: 5px 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.tarjeta__enlace:hover {
+    background-color:#647ce7;
+    color: #e2e8f0;
+}
+.tarjeta__descripcion {
+    height: 20px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.tarjeta__titulo {
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+.tarjeta__encabezado-imagen {
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.tarjeta__encabezado-etiqueta {
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0 10px 0 10px;
+    text-transform: uppercase;
+}
+.tarjeta__encabezado-etiqueta--destacada {
+    font-weight: bold;
+}
+.tarjeta__encabezado {
+    position: relative;
+}
+.proximosEventos {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    height: 400px;
+}
+.gridHover {
+    transition: transform 0.5s ease-out 0.05s;
+}
+.gridHover:hover {
+    transform: scale(1.1);
+}
+/* GRIDS INICIO */
+.sectionGrid {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background: #FFFFFF ;
+    margin-bottom: 50px;
+    height: 560px;
+}
+.contenidoGrid {
+    justify-content: center;
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    font-size: 15px;
+    padding-top: 250px;
+    padding-left: 50px;
+    line-height: 25px;
+    flex-direction: column;
+}
+.contenidoGrid div {
+    margin-top: 20px;
+}
+.contenidoGrid p {
+    height: 300px;
+    padding-top: 100px;
+    text-align: justify;
+    display: inline;
+}
+.contenidoGrid h3{
+    margin-top: 47px;
+
+}
+.gridInicio {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    justify-items:center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px 0px 30px 0px;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.noMostrar {
+    display: none;
+}
+header span {
+    display: none;
+}
+.girarTarjetaInicio {
+    display: none;
+}

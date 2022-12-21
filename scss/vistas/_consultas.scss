@@ -1,0 +1,146 @@
+.sectionConsultas {
+    background-color: #FFFFFF;
+}
+.titulo__consultas {
+    background-color: #030f46 ;
+    opacity: .6;
+    color: white;
+    max-width: 1800px;
+    height: 50px; 
+    margin-top: 10px ;
+    margin-bottom: 0px;
+    border-top: 10px;
+    padding-left: 20px;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.subtitulo__consultas {
+    background-color: #030f46 ;
+    opacity: .6;
+    color: white;
+    max-width: 1800px;
+    height: 35px; 
+    border-top: 10px;
+    padding-left: 20px;
+    margin: 5px 0px 5px 0px;
+    padding-top: 5px;
+}
+
+.fondoConsultas {
+    background-image: linear-gradient(to right, #030f46, #8599f1) ;
+}
+.fieldset__consulta {
+    margin: 60px;
+    height: 430px;
+    width: 600px;
+    border-color: #647ce7;
+    outline: none;
+}
+.leyendaConsultas {
+    color: #e2e8f0;
+    border-radius: 5px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 50px;
+}
+.leyendaConsultas legend{
+    height: 70px;
+    width: 600px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.cajaNombreConsultas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 ;
+}
+.nombreConsultas {
+    height: 20px;
+    width: 50px;
+    color:#FFFFFF;
+    display: flex;
+    font-size: 10px;
+}
+.nombreConsultas input{
+    border-radius: 5px;
+}
+.contenidoImagenConsultas {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+.correoConsultas {
+    height: 20px;
+    width: 40px;
+    color:#FFFFFF;
+    display: flex;
+    font-size: 10px;
+}
+.correoConsultas input {
+    border-radius: 5px;
+}
+.cajaConsultas {
+    margin-top: 10px;
+    height: 330px;
+    width: 600px;
+    color:#FFFFFF;
+    display: inline-block;
+}
+.cajaConsultas input {
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: start;
+}
+.cajaConsultas input {
+    height: 300px;
+    width: 400px;
+}
+.botonEnviar {
+    margin-top: 10px;
+}
+/* -------------------------------- */
+.textoImagen {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.seccionContactos {
+    height: 300px;
+
+}
+.lista__contactos {
+    font-style: italic;
+    padding: 50px 0px 10px 0px;
+    height: 100px;
+    line-height: 10px;
+    font-size: 20px;
+}
+.lista__contactos ol {
+    margin: 20px 0px 20px 0px;
+}
+.mapa {
+    display: flex;
+}
+.foto-consultas {
+    width: 1200px;
+    height: 600px;
+    margin: 50px;
+}
+.contenido__consultas {
+    display: inline-block;
+    text-align: justify;
+    margin: 0px 200px 0px 50px;
+}
+.RedesSociales {
+    transition: transform 0.4s ease-out 0.4s;
+}
+.RedesSociales:hover {
+    transform: scale(1.3);
+}
