@@ -1,3 +1,4 @@
+//FOOTER
 footer {
     color: grey;
     margin: 10px;
@@ -43,3 +44,76 @@ footer {
     width: 20px;
     font-size: 13px;
 }
+
+// .pie-pagina {
+//     background-color: $bgDark;
+//     color: $fontLight;
+//     padding: 60px 20px;
+  
+//     &__contenido {
+//       @extend .contenedor;
+//       @include templateGrid(3);
+  
+//       h4 {
+//         color: $primary;
+//         margin-bottom: 20px;
+//         font-weight: bold;
+//         font-size: 20px;
+//       }
+  
+//       &-lista {
+//         li {
+//           margin: 10px 0;
+//         }
+  
+//         a {
+//           color: $fontLight;
+//           transition: $transition;
+  
+//           &:hover {
+//             color: $primary;
+//           }
+//         }
+//       }
+  
+//       &-rrss {
+//         @include templateFlex(space-evenly, false);
+//         margin-top: 30px;
+  
+//         // maps
+//         // llave: valor
+//         $iconosSocial: (
+//           facebook: #2279e4,
+//           instagram: #c92d8f,
+//           twitter: #55acee,
+//           whatsapp: green,
+//           tiktok: yellow
+//         );
+  
+//         // ciclo (bucle)
+//         @each $nombreRedSocial, $colorRedSocial in $iconosSocial {
+//           .rs-#{$nombreRedSocial} {
+//             color: $fontLight;
+//             font-size: 30px;
+//             transition: $transition;
+  
+//             &:hover {
+//               color: $colorRedSocial;
+//             }
+//           }
+//         }
+//       }
+//     }
+  
+//     &__copyright {
+//       margin-top: 40px;
+//       text-align: center;
+//       color: #94a3b8;
+//     }
+//   }
+  
+//   @media (max-width: $bpSmall) {
+//     .pie-pagina__contenido {
+//       grid-template-columns: 1fr;
+//     }
+//   }

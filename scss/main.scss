@@ -2,8 +2,13 @@
 @import "componentes/variables.scss";
 @import "componentes/global";
 @import "componentes/header";
+@import "componentes/footer";
 
 // TEMPORAL
 // @import "estilos";
-
+@import "vistas/index";
+@import "vistas/dondeIr";
+@import "vistas/sobreChile";
+@import "vistas/consultas";
+@import "vistas/galeria"; 
 // BREAKPOINTS

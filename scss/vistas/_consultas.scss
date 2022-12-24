@@ -1,3 +1,4 @@
+//CONSULTAS
 .sectionConsultas {
     background-color: #FFFFFF;
 }
@@ -63,10 +64,12 @@
     color:#FFFFFF;
     display: flex;
     font-size: 10px;
+
+    & input {
+        border-radius: 5px;
+    }
 }
-.nombreConsultas input{
-    border-radius: 5px;
-}
+
 .contenidoImagenConsultas {
     display: inline-block;
     text-align: justify;
@@ -82,25 +85,28 @@
     color:#FFFFFF;
     display: flex;
     font-size: 10px;
+
+    & input {
+        border-radius: 5px; 
+    }
+
 }
-.correoConsultas input {
-    border-radius: 5px;
-}
+
 .cajaConsultas {
     margin-top: 10px;
     height: 330px;
     width: 600px;
     color:#FFFFFF;
     display: inline-block;
-}
-.cajaConsultas input {
-    border-radius: 10px;
-    margin-left: 20px;
-    text-align: start;
-}
-.cajaConsultas input {
-    height: 300px;
-    width: 400px;
+
+    & input {
+        border-radius: 10px;
+        margin-left: 20px;
+        text-align: start;
+
+        height: 300px;
+        width: 400px;
+    }
 }
 .botonEnviar {
     margin-top: 10px;
@@ -121,10 +127,12 @@
     height: 100px;
     line-height: 10px;
     font-size: 20px;
+
+    & ol {
+        margin: 20px 0px 20px 0px;
+    }
 }
-.lista__contactos ol {
-    margin: 20px 0px 20px 0px;
-}
+
 .mapa {
     display: flex;
 }
@@ -140,7 +148,7 @@
 }
 .RedesSociales {
     transition: transform 0.4s ease-out 0.4s;
-}
-.RedesSociales:hover {
-    transform: scale(1.3);
+    & :hover {
+        transform: scale(1.3); 
+    }
 }

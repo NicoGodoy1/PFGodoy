@@ -1067,3 +1067,61 @@ footer {
     }
 }
 /* ---------------------------------------------------- */
+.pie-pagina {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 60px 20px; }
+    .pie-pagina__contenido {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px; }
+      .pie-pagina__contenido h4 {
+        color: #22c55e;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 20px; }
+      .pie-pagina__contenido-lista li {
+        margin: 10px 0; }
+      .pie-pagina__contenido-lista a {
+        color: #e2e8f0;
+        transition: all 0.3s; }
+        .pie-pagina__contenido-lista a:hover {
+          color: #22c55e; }
+      .pie-pagina__contenido-rrss {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px; }
+        .pie-pagina__contenido-rrss .rs-facebook {
+          color: #e2e8f0;
+          font-size: 30px;
+          transition: all 0.3s; }
+          .pie-pagina__contenido-rrss .rs-facebook:hover {
+            color: #2279e4; }
+        .pie-pagina__contenido-rrss .rs-instagram {
+          color: #e2e8f0;
+          font-size: 30px;
+          transition: all 0.3s; }
+          .pie-pagina__contenido-rrss .rs-instagram:hover {
+            color: #c92d8f; }
+        .pie-pagina__contenido-rrss .rs-twitter {
+          color: #e2e8f0;
+          font-size: 30px;
+          transition: all 0.3s; }
+          .pie-pagina__contenido-rrss .rs-twitter:hover {
+            color: #55acee; }
+        .pie-pagina__contenido-rrss .rs-whatsapp {
+          color: #e2e8f0;
+          font-size: 30px;
+          transition: all 0.3s; }
+          .pie-pagina__contenido-rrss .rs-whatsapp:hover {
+            color: green; }
+        .pie-pagina__contenido-rrss .rs-tiktok {
+          color: #e2e8f0;
+          font-size: 30px;
+          transition: all 0.3s; }
+          .pie-pagina__contenido-rrss .rs-tiktok:hover {
+            color: yellow; }
+    .pie-pagina__copyright {
+      margin-top: 40px;
+      text-align: center;
+      color: #94a3b8; }
