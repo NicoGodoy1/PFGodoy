@@ -11,6 +11,7 @@
 - *HTML 5*
 - *CSS 3*
 - *Bootstrap 5.2*
+- *Sass*
 
 ## Descripción de Proyecto
 *En este proyecto intento realizar una página institucional chilena sobre turismo aplicando
