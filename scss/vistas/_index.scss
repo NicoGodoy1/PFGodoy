@@ -262,34 +262,6 @@ header span {
 }
 // ---------------------------------------------------
 .boton__inicio {
-    border: none;
-    background: #FFFFFF ;
-
-    & a {
-        border: none;
-        margin-top: 20px;
-        color: #030f46;
-        background: transparent;
-        border: 4px solid #030f46;
-        border-radius: 6px;
-        border-radius: 5px;
-        padding: 8px 16px;
-        text-align: center;
-        display: inline-block;
-        font-size: 10px;
-        margin: 4px 2px;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        text-decoration: none;
-        text-transform: uppercase;
-        background: #FFFFFF ;
-        border: 2px solid #030f46;
-        font-weight: bold;
-    }
-    &:hover a {
-        background-color: #030f46;
-        color: #FFFFFF;
-        font-weight: bolder;
-    }
+    @include Button($blueButton)
 }
+
