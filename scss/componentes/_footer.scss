@@ -54,7 +54,7 @@ footer {
 
   &__contenido {
     @extend .contenedor;
-    @include templateGrid(3);
+    @include templateGrid(4);
     // max-width: 1200px;
     // margin: 0 auto;
     // display: grid;
@@ -62,18 +62,17 @@ footer {
     // gap: 50px;
     
 
-    h4 {
-      color: $primary;
+    &-titulo {
+      color: white;
       margin-bottom: 20px;
       font-weight: bold;
       font-size: 20px;
     }
 
     &-lista {
-        display: inline-block;
       li {
         margin: 10px 0;
-        display: inline;
+        display: inline-block;
       }
 
       a {
@@ -128,4 +127,10 @@ footer {
   .pie-pagina__contenido {
     grid-template-columns: 1fr;
   }
+
+}
+@media (max-width: $bpMedium) {
+    .pie-pagina__contenido {
+      grid-template-columns: 2fr;
+    }
 }
