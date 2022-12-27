@@ -47,3 +47,22 @@
         overflow: hidden; 
     }
 }
+//  MEDIA QUERIES
+@media (max-width: $bpSmall) {
+    .galeria_container {
+        width: 225px;
+        height: 500px;
+        flex-direction: column;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .galeria_container img {
+        width: 100px;
+        height: 100px;
+    } 
+    .galeriaHover {
+        width: 100px;
+        height: 100px;
+    } 
+}

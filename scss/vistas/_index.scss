@@ -23,11 +23,13 @@
         padding: 5px 0;
         padding-bottom: 5px;
         font-weight: bold;
+        position: relative;
 
         &:hover {
             background-color:#647ce7;
             color: #e2e8f0;
         }
+        @include interactiveButton(10px);
     }
 
     &__descripcion {
@@ -220,9 +222,12 @@ header span {
 .articuloInicio {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
+    background-color: transparent;
 }
+
 .efectoArticulo {
     transition: transform 0.5s ease-out 0.05s;
+    position: relative;
 
     &:hover {
         transform: scale(1.05);
@@ -271,6 +276,142 @@ header span {
 }
 // ---------------------------------------------------
 .boton__inicio {
-    @include Button($blueButton)
+    @include Button($blueButton);
+    @include interactiveButton(5px);
+}
+// MEDIA QUERIES 
+
+@media (max-width: $bpLarge ) {
+    .navbar-nav li {
+        margin-left: 20px;         
+    }
 }
 
+@media (max-width: $bpSmall) {
+    .sectionGrid {
+        flex-direction: column;
+    }
+    .proximosEventos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1500px;
+    }
+    .tituloEventos {
+        height: 30px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .tarjeta {
+        margin-top: 10px;
+    }
+    .girarTarjetaInicio {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .tarjetas_inicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .articulo-inicio {
+        display: flex;
+        flex-direction: column;
+        height: 225px;
+        font-size: 10px;
+    }
+    .tarjetas__contenido-inicio {
+        display: flex;
+        width: 300px;
+        height: 150px;
+        margin: 100px;
+        font-size: 10px;
+    }
+    .tarjetasInicio {
+        display: flex;
+        height: 400px;
+    }
+    .tarjetasInicio img {
+        height: 200px;
+        width: 300px;
+    }
+    .tarjetasMobile {
+        height: 1100px;
+    }
+    .contenido__subtitulo-incio {
+        width: 300px;
+        height: 150px;
+        padding-left: 10px;
+        font-size: 12px;
+        margin: 5px;
+    }
+    .seccionNuestraDiversidad {
+        height: 1600;
+        width: 300;
+    }
+    .contenidoImagenInicio {
+        display: inline-block;
+        text-align: justify;
+        font-size: 16px;
+        margin: 15px 0px 20px 0px;   
+        line-height: 20px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    .contenidoSubtituloIncio {
+        border-radius: 10px;
+        margin: 20px 10px 20px 20px;
+        /* width: 900px; */
+        height: 70px; 
+        display: inline-block;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .contenidoSubtituloIncio {
+        border-radius: 10px;
+        margin: 20px 10px 20px 10px;
+        height: 150px; 
+        display: inline-block;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 20px;
+        background: #FFFFFF;
+        padding-top: 20px;
+    }
+    .sectionGrid {
+        align-items: center;
+        justify-content: center;
+        height: 1100px;
+    }
+    .gridInicio {
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 10px;
+    }
+    .gridInicio img {
+        height: 80px;
+        width: 90px;
+        margin-top: 30px;
+    }
+    .contenidoGrid {
+        height: 500px;
+        width: 500px;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin: 20px 20px 20px 20px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 498px) {
+    .contenidoImagenInicio {
+        display: inline-block;
+        text-align: justify;
+        font-size: 14px;
+        margin: 20px 0px 20px 0px;
+        padding-bottom: 10px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+}

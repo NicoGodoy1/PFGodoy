@@ -89,3 +89,56 @@
 .div__sobreChile {
     display: block;
 }
+
+.efectoTarjetaSobreChile {
+    @extend .efectoTarjeta;
+    transition: transform 0.3s;
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+// MEDIA QUERIES
+@media (max-width: 857px) {
+    .contenidoTituloSobreChile {
+        background-color: #FFFFFF;
+        margin: 0px 10px 0px 10px;
+        height: 150px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: $bpSmall ) {
+    .contenidoTituloSobreChile {
+        background-color: #FFFFFF;
+        margin: 0px 40px 0px 40px;
+        height: 200px;
+        padding-top: 30px;
+    }
+    .contenidoTituloSobreChile {
+        padding-top: 10px;
+    }
+    .tarjetas_sobreChile {
+        flex-direction: column;
+        width: 450px;
+    }
+    .imagenes__sobreChile {
+        margin-left: 50px;
+        height:200px;
+        width: 200px;
+    }
+    .contenidos__sobreChile {
+        width: 200px;
+        margin-left: 25px;
+    }
+    .contenidosSobreChile p {
+        /* display: inline-block;
+        text-align: justify; */
+        font-size: 14px;
+        margin: 5px 0px 5px 0px;
+        padding-bottom: 10px;
+        line-height: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}

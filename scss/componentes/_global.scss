@@ -94,6 +94,33 @@ a:link, a:visited {
    
 }
 
+@mixin ActiveButton($color) {
+    padding: 5px;
+    border-radius: 10px;
+
+    &:active {
+        background-color: $color;
+        color: black !important;
+    }
+} 
+
+@mixin LastChild($color) {
+    &:last-child  {
+        border-color: $color;
+        border-style: outset;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+}
+
+@mixin interactiveButton($length) {
+    &:hover::after {
+        position: absolute;
+        content: '\279c';
+        right:$length;
+        color: black;
+    }
+}
 // EXTENDS 
 .gradienteLinear {
     background: rgb(15,42,161);

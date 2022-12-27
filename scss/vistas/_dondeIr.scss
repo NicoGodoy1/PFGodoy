@@ -69,3 +69,39 @@
 .boton__dondeIr {
     @include Button($blueButton)
 }
+
+// MEDIA QUERIES 
+@media (max-width: bpSmall) {
+    .tarjetas_dondeIr {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tarjetas__dondeIr {
+        margin: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 20px;
+        width: 200px;
+    }
+    .video__contenido-dondeIr {
+        height: 100px;
+        margin-left: 80px;
+    }
+    .imagen__contenido-dondeIr {
+        margin-left: 20px;
+        width: 250px;
+        height: 200px;
+        padding-top: 20px;
+    }
+    .imagen__zoit-dondeIr {
+        border-radius: 20px;
+        margin: 200;
+        padding-top: 20px;
+        margin: 20px 20px 20px 20px;
+        width: 200px;
+        height: 400px;
+    }
+    .imagen__contenido-dondeIr {
+        font-size: 10px;
+        line-height: normal;
+    }
+}

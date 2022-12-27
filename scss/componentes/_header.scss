@@ -42,3 +42,29 @@
     }
 }
 
+.nav-item a {
+    @include ActiveButton( #8599f1);
+}
+
+.navbar-nav li {
+    @include LastChild( #8599f1);
+    
+}
+// MEDIA QUERIES 
+@media (max-width: $bpSmall) {
+     .encabezado__contenido-menu {
+        display: none;
+    }
+
+    .encabezado__contenido-menu-celular {
+        display: inline-block;
+    }   
+    header span {
+        display: flex;
+        height: 35px;
+        width: 15px;
+        margin-right: 40px;
+        background-color: #647ce7;
+    }
+
+}
