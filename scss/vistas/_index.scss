@@ -159,21 +159,30 @@ header span {
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: center;
+    font-size: $titleFontSize;
 }
 
 .subtituloInicio {
     background-color: #030f46 ;
     opacity: .6;
     color: white;
-    max-width: 1800px;
+    max-width: auto;
     height: 35px; 
     border-top: 70px;
     padding-left: 20px;
     margin: 20px 0px 20px 0px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    font-size: $subtitleFontSize;
+}
+// EXTENDS 
+.gradienteLinear {
+    background: rgb(15,42,161);
+    background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
 }
 .estadisticasFondo {
-    background-image: radial-gradient(circle, #030f46, #8599f1) ;
+    // background-image: radial-gradient(circle, #030f46, #8599f1) ;
+    // color: #FFFFFF;
+    @extend .gradienteLinear;
     color: #FFFFFF;
 }
 .estadisticasInicio p {

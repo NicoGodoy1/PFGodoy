@@ -8,28 +8,30 @@
     height: 400px;
 }
 .titulo__imagen-dondeIr {
-    background-color: #647ce7;
-    color: #EEEEEE;
-    max-width: 1800px;
-    height: 50px; 
-    margin-top: 20px ;
-    margin-bottom: 20px;
-    border-top: 100px;
-    padding-left: 20px;
-    margin: 20px;
-    padding-top: 10px;
-    text-align: center;   
+    @extend .tituloInicio;
+    // background-color: #647ce7;
+    // color: #EEEEEE;
+    // max-width: 1800px;
+    // height: 50px; 
+    // margin-top: 20px ;
+    // margin-bottom: 20px;
+    // border-top: 100px;
+    // padding-left: 20px;
+    // margin: 20px;
+    // padding-top: 10px;
+    // text-align: center;   
 }
 .subtitulos_dondeIr {
-    background-color: #030f46 ;
-    opacity: .6;
-    color: white;
-    max-width: 1800px;
-    height: 35px; 
-    border-top: 70px;
-    padding-left: 20px;
-    margin: 20px 0px 20px 0px;
-    padding-bottom: 5px;
+    @extend .subtituloInicio;
+    // background-color: #030f46 ;
+    // opacity: .6;
+    // color: white;
+    // max-width: 1800px;
+    // height: 35px; 
+    // border-top: 70px;
+    // padding-left: 20px;
+    // margin: 20px 0px 20px 0px;
+    // padding-bottom: 5px;
 }
 .tarjetasDondeIr {
     background: #FFFFFF ;

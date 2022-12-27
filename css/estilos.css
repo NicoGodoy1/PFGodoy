@@ -53,6 +53,10 @@ a:link, a:visited {
   font-size: xx-large;
   font-weight: bold; }
 
+.gradienteLinear, .estadisticasFondo, .fondoConsultas {
+  background: #0f2aa1;
+  background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
+
 .encabezado {
   background-color: #030f46;
   z-index: 100; }
@@ -247,7 +251,7 @@ header span {
 .girarTarjetaInicio {
   display: none; }
 
-.tituloInicio {
+.tituloInicio, .titulo__imagen-dondeIr, .titulos_sobreChile, .titulo__consultas, .titulo-galeria {
   background-color: #030f46;
   opacity: .8;
   color: #EEEEEE;
@@ -260,21 +264,26 @@ header span {
   margin: 20px;
   padding-top: 10px;
   padding-bottom: 5px;
-  text-align: center; }
+  text-align: center;
+  font-size: 35px; }
 
-.subtituloInicio {
+.subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
   background-color: #030f46;
   opacity: .6;
   color: white;
-  max-width: 1800px;
+  max-width: auto;
   height: 35px;
   border-top: 70px;
   padding-left: 20px;
   margin: 20px 0px 20px 0px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  font-size: 25px; }
+
+.gradienteLinear, .estadisticasFondo, .fondoConsultas {
+  background: #0f2aa1;
+  background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
 .estadisticasFondo {
-  background-image: radial-gradient(circle, #030f46, #8599f1);
   color: #FFFFFF; }
 
 .estadisticasInicio p {
@@ -393,30 +402,6 @@ header span {
   width: 600px;
   height: 400px; }
 
-.titulo__imagen-dondeIr {
-  background-color: #647ce7;
-  color: #EEEEEE;
-  max-width: 1800px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-top: 100px;
-  padding-left: 20px;
-  margin: 20px;
-  padding-top: 10px;
-  text-align: center; }
-
-.subtitulos_dondeIr {
-  background-color: #030f46;
-  opacity: .6;
-  color: white;
-  max-width: 1800px;
-  height: 35px;
-  border-top: 70px;
-  padding-left: 20px;
-  margin: 20px 0px 20px 0px;
-  padding-bottom: 5px; }
-
 .tarjetasDondeIr {
   background: #FFFFFF; }
 
@@ -452,7 +437,7 @@ header span {
 
 .boton__dondeIr {
   border: none;
-  background-color: #FFFFFF; }
+  background: #FFFFFF; }
   .boton__dondeIr a {
     border: none;
     margin-top: 20px;
@@ -471,7 +456,7 @@ header span {
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: white;
+    background: #FFFFFF;
     border: 2px solid #030f46;
     font-weight: bold; }
   .boton__dondeIr:hover a {
@@ -481,20 +466,6 @@ header span {
 
 .sectionSobreChile {
   background-color: #FFFFFF; }
-
-.titulos_sobreChile {
-  background-color: #030f46;
-  opacity: .8;
-  color: #EEEEEE;
-  max-width: 1800px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-top: 100px;
-  padding-left: 20px;
-  margin: 20px;
-  padding-top: 10px;
-  text-align: center; }
 
 .contenidoTituloSobreChile {
   background-color: #FFFFFF;
@@ -522,18 +493,6 @@ header span {
     padding-bottom: 10px;
     line-height: 20px;
     margin-top: 10px; }
-
-.subtitulos_sobreChile {
-  background-color: #030f46;
-  opacity: .6;
-  color: white;
-  max-width: 1800px;
-  height: 40px;
-  border-top: 70px;
-  padding-left: 20px;
-  margin: 10px 0px 10px 0px;
-  padding-top: 5px;
-  padding-bottom: 10px; }
 
 .imagenesSobreChile {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6); }
@@ -565,34 +524,6 @@ header span {
 
 .sectionConsultas {
   background-color: #FFFFFF; }
-
-.titulo__consultas {
-  background-color: #030f46;
-  opacity: .6;
-  color: white;
-  max-width: 1800px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  border-top: 10px;
-  padding-left: 20px;
-  margin: 10px;
-  padding-top: 10px;
-  text-align: center; }
-
-.subtitulo__consultas {
-  background-color: #030f46;
-  opacity: .6;
-  color: white;
-  max-width: 1800px;
-  height: 35px;
-  border-top: 10px;
-  padding-left: 20px;
-  margin: 5px 0px 5px 0px;
-  padding-top: 5px; }
-
-.fondoConsultas {
-  background-image: linear-gradient(to right, #030f46, #8599f1); }
 
 .fieldset__consulta {
   margin: 60px;
@@ -702,19 +633,6 @@ header span {
 
 .sectionGaleria {
   background-color: #FFFFFF; }
-
-.titulo-galeria {
-  background-color: #030f46;
-  opacity: .8;
-  color: #EEEEEE;
-  max-width: 1600px;
-  height: 50px;
-  border-top: 100px;
-  padding-left: 20px;
-  padding-bottom: 30px;
-  margin: 20px;
-  text-align: center;
-  padding-top: 10px; }
 
 .galeria_container {
   grid-template-columns: 1fr 1fr 1fr 1fr;

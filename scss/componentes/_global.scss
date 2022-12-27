@@ -93,3 +93,9 @@ a:link, a:visited {
     }
    
 }
+
+// EXTENDS 
+.gradienteLinear {
+    background: rgb(15,42,161);
+    background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
+}
