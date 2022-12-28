@@ -55,18 +55,13 @@ footer {
   &__contenido {
     @extend .contenedor;
     @include templateGrid(4);
-    // max-width: 1200px;
-    // margin: 0 auto;
-    // display: grid;
-    // grid-template-columns: repeat(2, 1fr);
-    // gap: 50px;
     
-
     &-titulo {
       color: white;
-      margin-bottom: 20px;
+      margin-bottom: 35px;
       font-weight: bold;
       font-size: 20px;
+      text-align: center;
     }
 
     &-lista {
@@ -86,7 +81,7 @@ footer {
     }
 
     &-rrss {
-      @include templateFlex(space-evenly, false);
+      @include templateFlex(space-evenly, true);
       margin-top: 30px;
       
     
@@ -98,13 +93,13 @@ footer {
         instagram: #c92d8f,
         twitter: #55acee,
         whatsapp: green,
-        // tiktok: yellow
+        email: yellow
       );
 
       // ciclo (bucle)
       @each $nombreRedSocial, $colorRedSocial in $iconosSocial {
         .rs-#{$nombreRedSocial} {
-          color: white;
+          color: lightblue;
           font-size: 30px;
           transition: 0.3s;
 

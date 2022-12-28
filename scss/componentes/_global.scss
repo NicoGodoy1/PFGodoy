@@ -108,7 +108,7 @@ a:link, a:visited {
     &:last-child  {
         border-color: $color;
         border-style: outset;
-        border-radius: 10px;
+        border-radius: 12px;
         margin-left: 20px;
     }
 }
@@ -133,7 +133,7 @@ a:link, a:visited {
 .contenedor {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
   
   // mixin
 @mixin templateGrid($cantidadCol) {

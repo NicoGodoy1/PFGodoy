@@ -100,7 +100,7 @@ a:link, a:visited {
 .navbar-nav li:last-child {
   border-color: #8599f1;
   border-style: outset;
-  border-radius: 10px;
+  border-radius: 12px;
   margin-left: 20px; }
 
 @media (max-width: 576px) {
@@ -170,9 +170,10 @@ footer {
     gap: 50px; }
     .pie-pagina__contenido-titulo {
       color: white;
-      margin-bottom: 20px;
+      margin-bottom: 35px;
       font-weight: bold;
-      font-size: 20px; }
+      font-size: 20px;
+      text-align: center; }
     .pie-pagina__contenido-lista li {
       margin: 10px 0;
       display: inline-block; }
@@ -184,31 +185,38 @@ footer {
     .pie-pagina__contenido-rrss {
       display: flex;
       justify-content: space-evenly;
+      align-items: center;
       margin-top: 30px; }
       .pie-pagina__contenido-rrss .rs-facebook {
-        color: white;
+        color: lightblue;
         font-size: 30px;
         transition: 0.3s; }
         .pie-pagina__contenido-rrss .rs-facebook:hover {
           color: #2279e4; }
       .pie-pagina__contenido-rrss .rs-instagram {
-        color: white;
+        color: lightblue;
         font-size: 30px;
         transition: 0.3s; }
         .pie-pagina__contenido-rrss .rs-instagram:hover {
           color: #c92d8f; }
       .pie-pagina__contenido-rrss .rs-twitter {
-        color: white;
+        color: lightblue;
         font-size: 30px;
         transition: 0.3s; }
         .pie-pagina__contenido-rrss .rs-twitter:hover {
           color: #55acee; }
       .pie-pagina__contenido-rrss .rs-whatsapp {
-        color: white;
+        color: lightblue;
         font-size: 30px;
         transition: 0.3s; }
         .pie-pagina__contenido-rrss .rs-whatsapp:hover {
           color: green; }
+      .pie-pagina__contenido-rrss .rs-email {
+        color: lightblue;
+        font-size: 30px;
+        transition: 0.3s; }
+        .pie-pagina__contenido-rrss .rs-email:hover {
+          color: yellow; }
   .pie-pagina__copyright {
     margin-top: 40px;
     text-align: center;
@@ -679,6 +687,13 @@ header span {
     color: #FFFFFF;
     font-weight: bolder; }
 
+.carousel {
+  height: 150px;
+  width: 250px; }
+  .carousel img {
+    height: 150px;
+    width: 250px; }
+
 @media (max-width: bpSmall) {
   .tarjetas_dondeIr {
     flex-direction: column;
@@ -706,6 +721,14 @@ header span {
   .imagen__contenido-dondeIr {
     font-size: 10px;
     line-height: normal; } }
+
+@media (max-width: bpMedium) {
+  .carousel {
+    height: 100px;
+    width: 200px; }
+    .carousel img {
+      height: 100px !important;
+      width: 200px !important; } }
 
 .sectionSobreChile {
   background-color: #FFFFFF; }
@@ -1024,110 +1047,3 @@ header span {
     margin-top: 5px; }
   .efectoTarjeta, .efectoTarjetaSobreChile {
     margin-bottom: 20px; } }
-
-footer {
-  color: grey;
-  margin: 10px; }
-
-.footer_div {
-  color: grey;
-  margin: 10px;
-  font-size: 16px; }
-
-.footer_izquierda {
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.comunicate {
-  position: fixed;
-  right: 0px;
-  bottom: 30px;
-  height: 40px;
-  width: 40px; }
-
-.comunicate img {
-  position: fixed;
-  right: 20px;
-  bottom: 40px; }
-
-.instagram img {
-  position: fixed;
-  right: 23px;
-  bottom: 85px; }
-
-.facebook img {
-  position: fixed;
-  right: 23px;
-  bottom: 128px; }
-
-.twitter img {
-  position: fixed;
-  right: 23px;
-  bottom: 170px; }
-
-.redesSociales-footer a img {
-  height: 20px;
-  width: 20px;
-  font-size: 13px; }
-
-.pie-pagina {
-  background-color: #030f46;
-  color: grey;
-  padding: 60px 20px; }
-  .pie-pagina__contenido {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px; }
-    .pie-pagina__contenido-titulo {
-      color: white;
-      margin-bottom: 20px;
-      font-weight: bold;
-      font-size: 20px; }
-    .pie-pagina__contenido-lista li {
-      margin: 10px 0;
-      display: inline-block; }
-    .pie-pagina__contenido-lista a {
-      color: grey;
-      transition: 0.3s; }
-      .pie-pagina__contenido-lista a:hover {
-        color: white; }
-    .pie-pagina__contenido-rrss {
-      display: flex;
-      justify-content: space-evenly;
-      margin-top: 30px; }
-      .pie-pagina__contenido-rrss .rs-facebook {
-        color: white;
-        font-size: 30px;
-        transition: 0.3s; }
-        .pie-pagina__contenido-rrss .rs-facebook:hover {
-          color: #2279e4; }
-      .pie-pagina__contenido-rrss .rs-instagram {
-        color: white;
-        font-size: 30px;
-        transition: 0.3s; }
-        .pie-pagina__contenido-rrss .rs-instagram:hover {
-          color: #c92d8f; }
-      .pie-pagina__contenido-rrss .rs-twitter {
-        color: white;
-        font-size: 30px;
-        transition: 0.3s; }
-        .pie-pagina__contenido-rrss .rs-twitter:hover {
-          color: #55acee; }
-      .pie-pagina__contenido-rrss .rs-whatsapp {
-        color: white;
-        font-size: 30px;
-        transition: 0.3s; }
-        .pie-pagina__contenido-rrss .rs-whatsapp:hover {
-          color: green; }
-  .pie-pagina__copyright {
-    margin-top: 40px;
-    text-align: center;
-    color: #94a3b8; }
-
-@media (max-width: 576px) {
-  .pie-pagina__contenido {
-    grid-template-columns: 1fr; } }
-
-@media (max-width: 768px) {
-  .pie-pagina__contenido {
-    grid-template-columns: 2fr; } }
