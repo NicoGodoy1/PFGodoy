@@ -277,31 +277,6 @@ header span {
     @include Button($blueButton);
     @include interactiveButton(5px);
 }
-// ANIMACIONES
-.animacion {
-    animation-duration: 2s ;
-    animation-name: saltar;
-    animation-iteration-count: infinite;
-} 
-
-@keyframes saltar{
-    0%{
-      opacity: 0;
-      transform: scale(0.3) translate3d(0,0,0);
-    }
-    50%{
-      opacity: 0.9;
-      transform: scale(1.1);
-    }
-    80%{
-      opacity: 1;
-      transform: scale(0.89);
-    }
-    100%{
-      opacity: 1;
-      transform: scale(1) translate3d(0,0,0);
-    }
-  }
 // MEDIA QUERIES 
 
 @media (max-width: $bpLarge ) {
