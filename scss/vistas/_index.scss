@@ -182,8 +182,6 @@ header span {
     background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
 }
 .estadisticasFondo {
-    // background-image: radial-gradient(circle, #030f46, #8599f1) ;
-    // color: #FFFFFF;
     @extend .gradienteLinear;
     color: #FFFFFF;
 }
@@ -279,6 +277,31 @@ header span {
     @include Button($blueButton);
     @include interactiveButton(5px);
 }
+// ANIMACIONES
+.animacion {
+    animation-duration: 2s ;
+    animation-name: saltar;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes saltar{
+    0%{
+      opacity: 0;
+      transform: scale(0.3) translate3d(0,0,0);
+    }
+    50%{
+      opacity: 0.9;
+      transform: scale(1.1);
+    }
+    80%{
+      opacity: 1;
+      transform: scale(0.89);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1) translate3d(0,0,0);
+    }
+  }
 // MEDIA QUERIES 
 
 @media (max-width: $bpLarge ) {
