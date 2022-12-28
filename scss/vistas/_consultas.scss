@@ -4,34 +4,12 @@
 }
 .titulo__consultas {
     @extend .tituloInicio;
-    // background-color: #030f46 ;
-    // opacity: .6;
-    // color: white;
-    // max-width: 1800px;
-    // height: 50px; 
-    // margin-top: 10px ;
-    // margin-bottom: 0px;
-    // border-top: 10px;
-    // padding-left: 20px;
-    // margin: 10px;
-    // padding-top: 10px;
-    // text-align: center;
 }
 .subtitulo__consultas {
     @extend .subtituloInicio;
-    // background-color: #030f46 ;
-    // opacity: .6;
-    // color: white;
-    // max-width: 1800px;
-    // height: 35px; 
-    // border-top: 10px;
-    // padding-left: 20px;
-    // margin: 5px 0px 5px 0px;
-    // padding-top: 5px;
 }
 
 .fondoConsultas {
-    // background-image: linear-gradient(to right, #030f46, #8599f1) ;
     @extend .gradienteLinear;
 }
 .fieldset__consulta {
@@ -47,12 +25,12 @@
     font-size: medium;
     text-align: center;
     border-radius: 50px;
-}
-.leyendaConsultas legend{
-    height: 70px;
+    & legend {
+        height: 70px;
     width: 600px;
     font-size: 50px;
     font-weight: bold;
+    }
 }
 .cajaNombreConsultas {
     display: flex;

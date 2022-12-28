@@ -85,9 +85,6 @@ footer {
       margin-top: 30px;
       
     
-
-      // maps
-      // llave: valor
       $iconosSocial: (
         facebook: #2279e4,
         instagram: #c92d8f,
@@ -96,7 +93,6 @@ footer {
         email: yellow
       );
 
-      // ciclo (bucle)
       @each $nombreRedSocial, $colorRedSocial in $iconosSocial {
         .rs-#{$nombreRedSocial} {
           color: lightblue;
