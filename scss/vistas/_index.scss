@@ -92,7 +92,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
-    background: #FFFFFF ;
+    background: $lightBackground ;
     margin-bottom: 50px;
     height: 560px;
 }
@@ -200,7 +200,7 @@ header span {
     max-width: 1400px;
     text-align: center;
     align-items: center;
-    background: #FFFFFF ;
+    background: $lightBackground ;
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
@@ -397,7 +397,7 @@ header span {
         text-align: justify;
         line-height: 20px;
         font-size: 20px;
-        background: #FFFFFF;
+        background: $lightBackground;
         padding-top: 20px;
     }
     .sectionGrid {

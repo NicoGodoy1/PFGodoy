@@ -1,6 +1,6 @@
 //CONSULTAS
 .sectionConsultas {
-    background-color: #FFFFFF;
+    background-color: $lightBackground;
 }
 .titulo__consultas {
     @extend .tituloInicio;
@@ -42,7 +42,7 @@
 .nombreConsultas {
     height: 20px;
     width: 50px;
-    color:#FFFFFF;
+    color: $lightBackground;
     display: flex;
     font-size: 10px;
 
@@ -63,7 +63,7 @@
 .correoConsultas {
     height: 20px;
     width: 40px;
-    color:#FFFFFF;
+    color: $lightBackground;
     display: flex;
     font-size: 10px;
 
@@ -77,7 +77,7 @@
     margin-top: 10px;
     height: 330px;
     width: 600px;
-    color:#FFFFFF;
+    color: $lightBackground;
     display: inline-block;
 
     & input {

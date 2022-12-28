@@ -1,6 +1,6 @@
 // DONDE IR
 .sectionDondeIr {
-    background-color: #FFFFFF;
+    background-color: $lightBackground;
     margin: 30px 80px 30px 80px;
 }
 .video__lugares-dondeIr {
@@ -14,7 +14,7 @@
     @extend .subtituloInicio;
 }
 .tarjetasDondeIr {
-    background: #FFFFFF ;
+    background: $lightBackground ;
 } 
 .imagen__zoit-dondeIr {
     border-radius: 20px;
