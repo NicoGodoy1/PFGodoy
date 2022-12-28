@@ -1,5 +1,5 @@
 # PROYECTO DESARROLLO WEB: SEGUNDO DESAFIO
-*Nombre del archivo: PreEntrega2Godoy*
+*Nombre del archivo: PreEntrega3Godoy*
 
 ## Nombre del alumno
 *Nicolás Gastón Godoy*
