@@ -54,7 +54,7 @@ footer {
 
   &__contenido {
     @extend .contenedor;
-    @include templateGrid(4);
+    @include templateGrid(3);
     
     &-titulo {
       color: white;

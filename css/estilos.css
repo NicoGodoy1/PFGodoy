@@ -166,7 +166,7 @@ footer {
   padding: 60px 20px; }
   .pie-pagina__contenido {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px; }
     .pie-pagina__contenido-titulo {
       color: white;
