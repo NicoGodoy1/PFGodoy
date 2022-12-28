@@ -3,17 +3,6 @@
 }
 .titulo-galeria {
     @extend .tituloInicio;
-    // background-color: #030f46 ;
-    // opacity: .8;
-    // color: #EEEEEE;
-    // max-width: 1600px;
-    // height: 50px; 
-    // border-top: 100px;
-    // padding-left: 20px;
-    // padding-bottom: 30px;
-    // margin: 20px;
-    // text-align: center;
-    // padding-top: 10px;
 }
 .galeria_container {
     grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -3,18 +3,6 @@
 }
 .titulos_sobreChile {
     @extend .tituloInicio;
-    // background-color: #030f46 ;
-    // opacity: .8;
-    // color: #EEEEEE;
-    // max-width: 1800px;
-    // height: 50px; 
-    // margin-top: 20px ;
-    // margin-bottom: 20px;
-    // border-top: 100px;
-    // padding-left: 20px;
-    // margin: 20px;
-    // padding-top: 10px;
-    // text-align: center;
 }
 .contenidoTituloSobreChile {
     background-color: #FFFFFF;
@@ -49,16 +37,6 @@
 
 .subtitulos_sobreChile {
     @extend .subtituloInicio;
-    // background-color: #030f46 ;
-    // opacity: .6;
-    // color: white;
-    // max-width: 1800px;
-    // height: 40px; 
-    // border-top: 70px;
-    // padding-left: 20px;
-    // margin: 10px 0px 10px 0px;
-    // padding-top: 5px;
-    // padding-bottom: 10px;
 }
 .imagenesSobreChile {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
@@ -132,8 +110,6 @@
         margin-left: 25px;
     }
     .contenidosSobreChile p {
-        /* display: inline-block;
-        text-align: justify; */
         font-size: 14px;
         margin: 5px 0px 5px 0px;
         padding-bottom: 10px;

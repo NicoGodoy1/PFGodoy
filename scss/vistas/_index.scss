@@ -383,7 +383,6 @@ header span {
     .contenidoSubtituloIncio {
         border-radius: 10px;
         margin: 20px 10px 20px 20px;
-        /* width: 900px; */
         height: 70px; 
         display: inline-block;
         text-align: justify;
@@ -412,11 +411,11 @@ header span {
         margin-left: 50px;
         margin-right: 50px;
         padding-left: 10px;
-    }
-    .gridInicio img {
-        height: 80px;
-        width: 90px;
-        margin-top: 30px;
+        & img {
+            height: 80px;
+            width: 90px;
+            margin-top: 30px;
+        }
     }
     .contenidoGrid {
         height: 500px;
