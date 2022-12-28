@@ -47,8 +47,7 @@
 }
 
 .navbar-nav li {
-    @include LastChild( #8599f1);
-    
+    @include LastChild( #8599f1);  
 }
 // MEDIA QUERIES 
 @media (max-width: $bpSmall) {
