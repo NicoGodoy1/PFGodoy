@@ -919,10 +919,10 @@ header span {
 
 .lista__contactos {
   font-style: italic;
-  padding: 50px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
   height: 100px;
   line-height: 10px;
-  font-size: 20px; }
+  font-size: 15px; }
   .lista__contactos ol {
     margin: 20px 0px 20px 0px; }
 
@@ -953,13 +953,13 @@ header span {
     padding-bottom: 20px;
     line-height: 40px;
     margin-top: 50px; }
-  .lista__contactos {
+  .lista__contactos ol {
     font-style: italic;
-    padding: 10px 0px 10px 0px;
-    height: 80px;
-    line-height: 10px;
-    font-size: 20px;
-    margin-bottom: 10px; } }
+    padding: 0px 0px 10px 0px;
+    height: 100px;
+    line-height: 5px;
+    font-size: 5px !important;
+    margin-bottom: 5px; } }
 
 .sectionGaleria {
   background-color: #FFFFFF; }
