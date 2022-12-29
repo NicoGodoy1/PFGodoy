@@ -252,7 +252,7 @@ header span {
         bottom: 4px;
         background-color:#030f46;
         opacity: 0.7;
-        color: #FFFFFF;
+        color: $letterColor;
         height: 20px;
         width: 400px;
         padding-top: 5PX;
@@ -328,10 +328,10 @@ header span {
     .tarjetasInicio {
         display: flex;
         height: 400px;
-    }
-    .tarjetasInicio img {
-        height: 200px;
-        width: 300px;
+        & img {
+            height: 200px;
+            width: 300px;
+        }
     }
     .tarjetasMobile {
         height: 1100px;
