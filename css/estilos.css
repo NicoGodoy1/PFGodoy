@@ -697,6 +697,9 @@ header span {
   color: blue;
   font-weight: bold; }
 
+.selectorMagenta p::selection {
+  background-color: magenta; }
+
 @media (max-width: bpSmall) {
   .tarjetas_dondeIr {
     flex-direction: column;
