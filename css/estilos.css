@@ -693,6 +693,10 @@ header span {
     height: 150px;
     width: 250px; }
 
+.firstLineBlue::first-line {
+  color: blue;
+  font-weight: bold; }
+
 @media (max-width: bpSmall) {
   .tarjetas_dondeIr {
     flex-direction: column;

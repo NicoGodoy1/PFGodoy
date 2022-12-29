@@ -59,6 +59,11 @@
     }
 }
 
+.firstLineBlue::first-line {
+    color: blue;
+    font-weight: bold;
+  }
+  
 
 // MEDIA QUERIES 
 @media (max-width: bpSmall) {
