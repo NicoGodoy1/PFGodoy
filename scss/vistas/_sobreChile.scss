@@ -76,9 +76,15 @@
     }
 }
 
-.firstLine::first-line {
-    color: $firstLine;
+// PSEUDOELEMENTOS
+
+.firstLineBlue::first-line {
+    color: blue;
     font-weight: bold;
+  }
+  
+.selectorMagenta p::selection {
+    background-color: magenta;
 }
 
 // MEDIA QUERIES
