@@ -51,11 +51,11 @@
 }
 
 .carousel {
-    height: 150px;
-    width: 250px;
+    height: 300px;
+    width: 444px;
     & img {
-        height: 150px ;
-        width: 250px;
+        height: 300px ;
+        width: 444px;
     }
 }
 
@@ -71,7 +71,8 @@
 }
 
 // MEDIA QUERIES 
-@media (max-width: bpSmall) {
+
+@media (max-width: $bpSmall) {
     .tarjetas_dondeIr {
         flex-direction: column;
         align-items: center;
@@ -104,16 +105,14 @@
         font-size: 10px;
         line-height: normal;
     }
-   
-}
-@media (max-width: bpMedium) {
     .carousel {
-        height: 100px;
-        width: 200px;
+        height: 200px;
+        width: 400px;
 
         & img {
-            height: 100px !important;
-            width: 200px !important;
+            height: 200px;
+            width: 400px ;
         }
     }
 }
+
