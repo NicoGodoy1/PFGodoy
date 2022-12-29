@@ -86,11 +86,11 @@ footer {
       
     
       $iconosSocial: (
-        facebook: #2279e4,
-        instagram: #c92d8f,
-        twitter: #55acee,
-        whatsapp: green,
-        email: yellow,
+        facebook: $facebook,
+        instagram: $instagram,
+        twitter: $twitter,
+        whatsapp: $whatsapp,
+        email: $email,
       );
 
       @each $nombreRedSocial, $colorRedSocial in $iconosSocial {
