@@ -148,9 +148,9 @@ header span {
 }
 // --------------------------------------------
 .tituloInicio {
-    background-color: #030f46 ;
+    background-color: $bgTitle ;
     opacity: .8;
-    color: #EEEEEE;
+    color: $letterColor;
     max-width: 1800px;
     height: 50px; 
     margin-top: 20px ;
@@ -165,9 +165,9 @@ header span {
 }
 
 .subtituloInicio {
-    background-color: #030f46 ;
+    background-color: $bgTitle;
     opacity: .6;
-    color: white;
+    color: $letterColor;
     max-width: auto;
     height: 35px; 
     border-top: 70px;
@@ -181,9 +181,11 @@ header span {
     background: rgb(15,42,161);
     background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
 }
+// -----------------------------------
+
 .estadisticasFondo {
     @extend .gradienteLinear;
-    color: #FFFFFF;
+    color: $letterColor;
 }
 .estadisticasInicio p {
     height: 40px;
@@ -218,7 +220,7 @@ header span {
     border-radius: 10px;
 }    
 .articuloInicio {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+    box-shadow: $shadow;
     border-radius: 5px;
     background-color: transparent;
 }
