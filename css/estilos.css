@@ -922,7 +922,7 @@ header span {
   line-height: 10px;
   font-size: 15px;
   justify-content: center; }
-  .lista__contactos ol {
+  .lista__contactos h5 {
     margin: 10px 0px 20px 0px;
     line-height: 10px;
     font-size: 15px; }
@@ -950,17 +950,19 @@ header span {
     display: inline-block;
     text-align: justify;
     font-size: 17px;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
     padding-bottom: 20px;
-    line-height: 40px;
-    margin-top: 50px; }
-  .lista__contactos ol {
+    line-height: 40px; }
+  .lista__contactos {
     font-style: italic;
-    padding: 0px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
     height: 50px;
-    line-height: 15px;
     font-size: 15px;
-    margin-bottom: 5px; } }
+    margin-bottom: 5px;
+    margin-bottom: 10px; }
+    .lista__contactos h5 {
+      font-size: 10px;
+      margin-bottom: 5px; } }
 
 .sectionGaleria {
   background-color: #FFFFFF; }
