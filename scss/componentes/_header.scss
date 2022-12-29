@@ -6,7 +6,7 @@
 
 
     &__contenido-logo {
-        color: #e2e8f0;
+        color: $letterColor;
         font-size: 15px;
         display: inline-block; 
     }
@@ -22,13 +22,13 @@
             display: flex; 
 
             & a {
-                color: #e2e8f0;
+                color: $letterColor;
                 font-weight: bold;
                 filter: blur(0px);
                 font-size: 17px; 
             }
             &-HOVER:hover a {
-                color: #8599f1;
+                color: $cardHoverButton;
                 filter: blur(0.6px);
             }
             & li {
@@ -43,11 +43,11 @@
 }
 
 .nav-item a {
-    @include ActiveButton( #8599f1);
+    @include ActiveButton( $activeButton);
 }
 
 .navbar-nav li {
-    @include LastChild( #8599f1);  
+    @include LastChild( $activeButton);  
 }
 // MEDIA QUERIES 
 @media (max-width: $bpSmall) {
