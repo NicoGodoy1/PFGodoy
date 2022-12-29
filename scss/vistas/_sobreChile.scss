@@ -76,6 +76,11 @@
     }
 }
 
+.firstLine::first-line {
+    color: $firstLine;
+    font-weight: bold;
+}
+
 // MEDIA QUERIES
 @media (max-width: 857px) {
     .contenidoTituloSobreChile {

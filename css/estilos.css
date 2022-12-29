@@ -181,7 +181,7 @@ footer {
       color: grey;
       transition: 0.3s; }
       .pie-pagina__contenido-lista a:hover {
-        color: white; }
+        color: #e2e8f0; }
     .pie-pagina__contenido-rrss {
       display: flex;
       justify-content: space-evenly;
@@ -569,7 +569,6 @@ header span {
   .contenidoSubtituloIncio {
     border-radius: 10px;
     margin: 20px 10px 20px 20px;
-    /* width: 900px; */
     height: 70px;
     display: inline-block;
     text-align: justify;
@@ -595,10 +594,10 @@ header span {
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 10px; }
-  .gridInicio img {
-    height: 80px;
-    width: 90px;
-    margin-top: 30px; }
+    .gridInicio img {
+      height: 80px;
+      width: 90px;
+      margin-top: 30px; }
   .contenidoGrid {
     height: 500px;
     width: 500px;
@@ -793,6 +792,10 @@ header span {
   .efectoTarjetaSobreChile:hover {
     transform: translateY(-10px); }
 
+.firstLine::first-line {
+  color: #133ae5;
+  font-weight: bold; }
+
 @media (max-width: 857px) {
   .contenidoTituloSobreChile {
     background-color: #FFFFFF;
@@ -819,8 +822,6 @@ header span {
     width: 200px;
     margin-left: 25px; }
   .contenidosSobreChile p {
-    /* display: inline-block;
-        text-align: justify; */
     font-size: 14px;
     margin: 5px 0px 5px 0px;
     padding-bottom: 10px;
@@ -844,12 +845,11 @@ header span {
   font-size: medium;
   text-align: center;
   border-radius: 50px; }
-
-.leyendaConsultas legend {
-  height: 70px;
-  width: 600px;
-  font-size: 50px;
-  font-weight: bold; }
+  .leyendaConsultas legend {
+    height: 70px;
+    width: 600px;
+    font-size: 50px;
+    font-weight: bold; }
 
 .cajaNombreConsultas {
   display: flex;
