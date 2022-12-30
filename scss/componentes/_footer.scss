@@ -62,17 +62,20 @@ footer {
       font-weight: bold;
       font-size: 20px;
       text-align: center;
+      margin-bottom: 10px;
     }
 
     &-lista {
       li {
         margin: 10px 0;
         display: inline-block;
+        width: 200px;
       }
 
       a {
         color: $footerText;
-        transition: 0.3s;
+        transition: $transition;
+
 
         &:hover {
           color: $footerHover;
@@ -97,7 +100,7 @@ footer {
         .rs-#{$nombreRedSocial} {
           color: lightblue;
           font-size: 30px;
-          transition: 0.3s;
+          transition: $transition;
 
           &:hover {
             color: $colorRedSocial;
@@ -117,8 +120,53 @@ footer {
 
 // MEDIAQUERIES
 @media (max-width: $bpSmall) {
+  .pie-pagina__copyright {
+    font-size: 12px;
+    width: 300px;
+
+  }
   .pie-pagina__contenido {
     grid-template-columns: 1fr;
+
+    &-titulo {
+      font-size: 17px;
+      margin-bottom: 5px;
+      padding-left: 25px;
+
+    }
+    &-lista {
+      width: 170px;
+      padding-left: 1px;
+    }
+      & li{
+      font-size: 14px;
+      display: inline-block;
+      justify-content: start;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      
+    }
+    &-rrss {
+      margin-top: 10px;
+
+
+      $iconosSocial: (
+        facebook: $facebook,
+        instagram: $instagram,
+        twitter: $twitter,
+        whatsapp: $whatsapp,
+        email: $email,
+      );
+
+      @each $nombreRedSocial, $colorRedSocial in $iconosSocial {
+        .rs-#{$nombreRedSocial} {
+          color: lightblue;
+          font-size: 20px;
+          transition: 0.3s;
+        }
+      }
+    }
+    
   }
 
 }

@@ -173,13 +173,15 @@ footer {
       margin-bottom: 35px;
       font-weight: bold;
       font-size: 20px;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 10px; }
     .pie-pagina__contenido-lista li {
       margin: 10px 0;
-      display: inline-block; }
+      display: inline-block;
+      width: 200px; }
     .pie-pagina__contenido-lista a {
       color: grey;
-      transition: 0.3s; }
+      transition: all 0.3s; }
       .pie-pagina__contenido-lista a:hover {
         color: #e2e8f0; }
     .pie-pagina__contenido-rrss {
@@ -190,31 +192,31 @@ footer {
       .pie-pagina__contenido-rrss .rs-facebook {
         color: lightblue;
         font-size: 30px;
-        transition: 0.3s; }
+        transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-facebook:hover {
           color: #2279e4; }
       .pie-pagina__contenido-rrss .rs-instagram {
         color: lightblue;
         font-size: 30px;
-        transition: 0.3s; }
+        transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-instagram:hover {
           color: #c92d8f; }
       .pie-pagina__contenido-rrss .rs-twitter {
         color: lightblue;
         font-size: 30px;
-        transition: 0.3s; }
+        transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-twitter:hover {
           color: #55acee; }
       .pie-pagina__contenido-rrss .rs-whatsapp {
         color: lightblue;
         font-size: 30px;
-        transition: 0.3s; }
+        transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-whatsapp:hover {
           color: green; }
       .pie-pagina__contenido-rrss .rs-email {
         color: lightblue;
         font-size: 30px;
-        transition: 0.3s; }
+        transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-email:hover {
           color: yellow; }
   .pie-pagina__copyright {
@@ -223,8 +225,46 @@ footer {
     color: #94a3b8; }
 
 @media (max-width: 576px) {
+  .pie-pagina__copyright {
+    font-size: 12px;
+    width: 300px; }
   .pie-pagina__contenido {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .pie-pagina__contenido-titulo {
+      font-size: 17px;
+      margin-bottom: 5px;
+      padding-left: 25px; }
+    .pie-pagina__contenido-lista {
+      width: 170px;
+      padding-left: 1px; }
+    .pie-pagina__contenido li {
+      font-size: 14px;
+      display: inline-block;
+      justify-content: start;
+      margin-top: 2px;
+      margin-bottom: 2px; }
+    .pie-pagina__contenido-rrss {
+      margin-top: 10px; }
+      .pie-pagina__contenido-rrss .rs-facebook {
+        color: lightblue;
+        font-size: 20px;
+        transition: 0.3s; }
+      .pie-pagina__contenido-rrss .rs-instagram {
+        color: lightblue;
+        font-size: 20px;
+        transition: 0.3s; }
+      .pie-pagina__contenido-rrss .rs-twitter {
+        color: lightblue;
+        font-size: 20px;
+        transition: 0.3s; }
+      .pie-pagina__contenido-rrss .rs-whatsapp {
+        color: lightblue;
+        font-size: 20px;
+        transition: 0.3s; }
+      .pie-pagina__contenido-rrss .rs-email {
+        color: lightblue;
+        font-size: 20px;
+        transition: 0.3s; } }
 
 @media (max-width: 768px) {
   .pie-pagina__contenido {
