@@ -47,7 +47,7 @@
     text-align: justify;
 }
 .boton__dondeIr {
-    @include Button($blueButton)
+    @include Button($blueButton);
 }
 
 .carousel {
