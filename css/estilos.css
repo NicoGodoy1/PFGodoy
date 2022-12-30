@@ -568,22 +568,14 @@ header span {
     padding-right: 40px; }
   .contenidoSubtituloIncio {
     border-radius: 10px;
-    margin: 20px 10px 20px 20px;
-    height: 70px;
-    display: inline-block;
-    text-align: justify;
-    line-height: 20px;
-    font-size: 16px; }
-  .contenidoSubtituloIncio {
-    border-radius: 10px;
     margin: 20px 10px 20px 10px;
     height: 150px;
     display: inline-block;
     text-align: justify;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 14px !important;
     background: #FFFFFF;
-    padding-top: 20px; }
+    padding-top: 15px; }
   .sectionGrid {
     align-items: center;
     justify-content: center;
@@ -604,7 +596,11 @@ header span {
     padding-top: 20px;
     padding-left: 10px;
     margin: 20px 20px 20px 20px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .RedesSociales {
+    margin-right: 15px;
+    height: 20px;
+    width: 20px; } }
 
 @media (max-width: 498px) {
   .contenidoImagenInicio {
