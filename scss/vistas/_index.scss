@@ -205,7 +205,9 @@ header span {
     // background: $lightBackground ;
     // PONERLE COLOR CON VARIABLE
     color: white;
-    background-color: #030f46;
+    // background-color: #030f46;
+    @extend .gradienteLinear;
+
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
