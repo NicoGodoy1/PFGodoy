@@ -57,6 +57,11 @@
         height: 300px ;
         width: 444px;
     }
+    &Section {
+        @extend .gradienteLinear;
+        margin: 20px 0px 20px 0px;
+        padding: 20px 0px 20px 0px;
+    }
 }
 
 // MEDIA QUERIES 

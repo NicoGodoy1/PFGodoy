@@ -53,7 +53,7 @@ a:link, a:visited {
   font-size: xx-large;
   font-weight: bold; }
 
-.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .fondoConsultas {
+.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
@@ -427,7 +427,7 @@ header span {
   padding-bottom: 5px;
   font-size: 25px; }
 
-.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .fondoConsultas {
+.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
@@ -731,6 +731,9 @@ header span {
   .carousel img {
     height: 300px;
     width: 444px; }
+  .carouselSection {
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px; }
 
 @media (max-width: 576px) {
   .tarjetas_dondeIr {
