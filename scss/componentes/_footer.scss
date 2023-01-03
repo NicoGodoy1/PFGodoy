@@ -48,7 +48,8 @@ footer {
 // FOOTER DE LA CLASE
 
 .pie-pagina {
-  background-color: $footerBackground;
+  // background-color: $footerBackground;
+  @extend .gradienteLinear;
   color: grey;
   padding: 60px 20px;
 
