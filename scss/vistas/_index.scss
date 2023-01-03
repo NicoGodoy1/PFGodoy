@@ -176,6 +176,7 @@ header span {
     padding-bottom: 5px;
     font-size: $subtitleFontSize;
 }
+
 // EXTENDS 
 .gradienteLinear {
     background: rgb(15,42,161);
@@ -209,16 +210,34 @@ header span {
     @extend .gradienteLinear;
 
 }
-.contenidoSubtituloIncio {
+.contenidoSubtituloInicio {
     border-radius: 10px;
     margin: 20px 10px 20px 10px;
     height: 100px; 
     display: inline-block;
     text-align: justify;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 30px;
     background: #FFFFFF;
     padding-top: 20px;
+}
+.subtituloNuestraDiversidad{
+    background-color: $bgTitle;
+    // opacity: .6;
+    color: white;
+    max-width: auto;
+    height: 35px; 
+    border-top: 70px;
+    padding-left: 30px;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 5px;
+    font-size: $subtitleFontSize;
+}
+.contenidoSubtituloNuestraDiversidad {
+    @extend .contenidoSubtituloInicio;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
 }
 .tarjetasInicio {
     margin: 20px 20px 20px 20px;
@@ -356,13 +375,14 @@ header span {
     .contenidoImagenInicio {
         display: inline-block;
         text-align: justify;
-        font-size: 16px;
+        justify-content: center;
+        font-size: 13px;
         margin: 15px 0px 20px 0px;   
         line-height: 20px;
         padding-left: 20px;
         padding-right: 40px;
     }
-    .contenidoSubtituloIncio {
+    .contenidoSubtituloInicio {
         border-radius: 10px;
         margin: 20px 10px 20px 10px;
         height: 150px; 
@@ -372,7 +392,14 @@ header span {
         font-size: 14px !important;
         background: $lightBackground;
         padding-top: 15px;
-        padding-right: 20px;
+        padding-right: 15px;
+    }
+    .contenidoSubtituloNuestraDiversidad {
+        color: white;
+        background-color: transparent;
+        font-size: 15px;
+        padding: 0px 20px 0px 20px;
+        margin: 5px 0px 5px 0px;
     }
     .sectionGrid {
         align-items: center;

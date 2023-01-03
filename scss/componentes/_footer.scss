@@ -50,7 +50,7 @@ footer {
 .pie-pagina {
   // background-color: $footerBackground;
   @extend .gradienteLinear;
-  color: grey;
+  color: white;
   padding: 60px 20px;
 
   &__contenido {
@@ -74,12 +74,16 @@ footer {
       }
 
       a {
-        color: $footerText;
+        // color: $footerText;
+        color: white;
         transition: $transition;
 
 
         &:hover {
-          color: $footerHover;
+          // color: $footerHover;
+          color: yellow;
+          filter: blur(0.53px);
+                    
         }
       }
     }
