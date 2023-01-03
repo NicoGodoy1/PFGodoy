@@ -239,7 +239,6 @@ footer {
       padding-left: 1px; }
     .pie-pagina__contenido li {
       font-size: 14px;
-      display: inline-block;
       justify-content: start;
       margin-top: 2px;
       margin-bottom: 2px; }
@@ -248,23 +247,28 @@ footer {
       .pie-pagina__contenido-rrss .rs-facebook {
         color: lightblue;
         font-size: 20px;
-        transition: 0.3s; }
+        transition: 0.3s;
+        justify-content: start; }
       .pie-pagina__contenido-rrss .rs-instagram {
         color: lightblue;
         font-size: 20px;
-        transition: 0.3s; }
+        transition: 0.3s;
+        justify-content: start; }
       .pie-pagina__contenido-rrss .rs-twitter {
         color: lightblue;
         font-size: 20px;
-        transition: 0.3s; }
+        transition: 0.3s;
+        justify-content: start; }
       .pie-pagina__contenido-rrss .rs-whatsapp {
         color: lightblue;
         font-size: 20px;
-        transition: 0.3s; }
+        transition: 0.3s;
+        justify-content: start; }
       .pie-pagina__contenido-rrss .rs-email {
         color: lightblue;
         font-size: 20px;
-        transition: 0.3s; } }
+        transition: 0.3s;
+        justify-content: start; } }
 
 @media (max-width: 768px) {
   .pie-pagina__contenido {
@@ -446,7 +450,8 @@ header span {
   max-width: 1400px;
   text-align: center;
   align-items: center;
-  background: #FFFFFF; }
+  color: white;
+  background-color: #030f46; }
 
 .contenidoSubtituloIncio {
   border-radius: 10px;

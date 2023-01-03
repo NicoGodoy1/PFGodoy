@@ -202,7 +202,10 @@ header span {
     max-width: 1400px;
     text-align: center;
     align-items: center;
-    background: $lightBackground ;
+    // background: $lightBackground ;
+    // PONERLE COLOR CON VARIABLE
+    color: white;
+    background-color: #030f46;
 }
 .contenidoSubtituloIncio {
     border-radius: 10px;
