@@ -183,7 +183,9 @@ header span {
     background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
 }
 // -----------------------------------
-
+.seccionEstadisticas {
+    // background-color:#030f46;
+}
 .estadisticasFondo {
     @extend .gradienteLinear;
     color: $letterColor;
@@ -213,13 +215,17 @@ header span {
 .contenidoSubtituloInicio {
     border-radius: 10px;
     margin: 20px 10px 20px 10px;
-    height: 100px; 
+    // height: 100px; 
     display: inline-block;
     text-align: justify;
     line-height: 20px;
     font-size: 20px;
     background: #FFFFFF;
     padding-top: 20px;
+}
+.estilo {
+    padding-top: 40px;
+    color: black;
 }
 .subtituloNuestraDiversidad{
     background-color: $bgTitle;
