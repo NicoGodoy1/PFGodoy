@@ -217,7 +217,7 @@ header span {
     display: inline-block;
     text-align: justify;
     line-height: 20px;
-    font-size: 30px;
+    font-size: 20px;
     background: #FFFFFF;
     padding-top: 20px;
 }
@@ -231,7 +231,7 @@ header span {
     padding-left: 30px;
     margin: 20px 0px 20px 0px;
     padding-bottom: 5px;
-    font-size: $subtitleFontSize;
+    font-size: 35px;
 }
 .contenidoSubtituloNuestraDiversidad {
     @extend .contenidoSubtituloInicio;
