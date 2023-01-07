@@ -712,7 +712,15 @@ header span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1500px; }
+    height: 1500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 570px; }
+  .tarjeta {
+    width: 50%;
+    align-items: center;
+    justify-content: center; }
   .tituloEventos {
     height: 30px;
     margin-top: 10px;
