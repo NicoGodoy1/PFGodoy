@@ -418,16 +418,17 @@ header span {
   font-size: 35px; }
 
 .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
-  background-color: #030f46;
-  opacity: .6;
-  color: white;
+  color: #030f46;
+  background-color: white;
   max-width: auto;
   height: 35px;
   border-top: 70px;
   padding-left: 20px;
   margin: 10px 0px 10px 0px;
   padding-bottom: 5px;
-  font-size: 25px; }
+  font-size: 30px;
+  justify-content: center;
+  font-weight: bold; }
 
 .gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
   background: #0f2aa1;
@@ -609,6 +610,10 @@ header span {
     margin-top: 10px; } }
 
 @media (max-width: 576px) {
+  .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
+    height: 80px;
+    justify-content: center;
+    align-items: center; }
   .sectionGrid {
     flex-direction: column; }
   .proximosEventos {

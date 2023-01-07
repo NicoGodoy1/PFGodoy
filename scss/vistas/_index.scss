@@ -165,9 +165,18 @@ header span {
 }
 
 .subtituloInicio {
-    background-color: $bgTitle;
-    opacity: .6;
-    color: $letterColor;
+    // background-color: $bgTitle;
+    // opacity: .6;
+    // color: $letterColor;
+    // max-width: auto;
+    // height: 35px; 
+    // border-top: 70px;
+    // padding-left: 20px;
+    // margin: 10px 0px 10px 0px;
+    // padding-bottom: 5px;
+    // font-size: $subtitleFontSize;
+    color: #030f46;
+    background-color: white;
     max-width: auto;
     height: 35px; 
     border-top: 70px;
@@ -175,6 +184,8 @@ header span {
     margin: 10px 0px 10px 0px;
     padding-bottom: 5px;
     font-size: $subtitleFontSize;
+    justify-content: center;
+    font-weight: bold;
 }
 
 // EXTENDS 
@@ -373,6 +384,11 @@ header span {
 }
 
 @media (max-width: $bpSmall) {
+    .subtituloInicio {
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    }
     .sectionGrid {
         flex-direction: column;
     }
