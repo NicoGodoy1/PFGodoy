@@ -272,8 +272,14 @@ footer {
         justify-content: start; } }
 
 @media (max-width: 768px) {
-  .pie-pagina__contenido {
-    grid-template-columns: 2fr; } }
+  .pie-pagina {
+    height: 1000px; }
+    .pie-pagina__contenido {
+      grid-template-columns: 2fr; }
+      .pie-pagina__contenido-lista {
+        width: 270px; }
+        .pie-pagina__contenido-lista a {
+          justify-content: left; } }
 
 .tarjeta {
   background-color: #fff;
@@ -353,16 +359,16 @@ footer {
   margin-top: 30px;
   background: #FFFFFF;
   margin-bottom: 50px;
-  height: 560px; }
+  height: 650px; }
 
 .contenidoGrid {
   justify-content: center;
   display: inline-block;
   width: 500px;
-  height: 100px;
+  height: 600px;
   display: flex;
   font-size: 15px;
-  padding-top: 250px;
+  padding-top: 30px;
   padding-left: 50px;
   line-height: 25px;
   flex-direction: column; }
@@ -385,7 +391,7 @@ footer {
   justify-items: center;
   margin-left: 50px;
   margin-right: 50px;
-  padding: 30px 0px 30px 0px;
+  padding: 80px 0px 30px 0px;
   height: 500px;
   width: 500px;
   display: inline-block;
@@ -433,6 +439,9 @@ header span {
 .gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
+
+.seccionEstadisticas {
+  background-color: white; }
 
 .estadisticasFondo {
   color: white; }

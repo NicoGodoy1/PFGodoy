@@ -46,7 +46,6 @@ footer {
 }
 
 // FOOTER DE LA CLASE
-
 .pie-pagina {
   // background-color: $footerBackground;
   @extend .gradienteLinear;
@@ -178,7 +177,16 @@ footer {
 
 }
 @media (max-width: $bpMedium) {
-    .pie-pagina__contenido {
+  .pie-pagina {
+    height: 1000px;
+    &__contenido {
       grid-template-columns: 2fr;
+      &-lista {
+        width: 270px;
+        & a{
+          justify-content:left;
+        }
+      }
     }
+  }
 }
