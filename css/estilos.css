@@ -824,6 +824,12 @@ header span {
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px; }
 
+.seccion__regiones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 10px 50px 10px 50px; }
+
 @media (max-width: 576px) {
   .tarjetas_dondeIr {
     flex-direction: column;
@@ -856,7 +862,12 @@ header span {
     width: 350px; }
     .carousel img {
       height: 200px;
-      width: 350px; } }
+      width: 350px; }
+  .seccion__regiones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 10px 50px 10px 50px; } }
 
 .sectionSobreChile {
   background-color: #FFFFFF; }
