@@ -40,7 +40,7 @@
 }
 .subtitulos_sobreChileCursive {
     @extend .subtituloInicio;
-    font-family: 'Lucida handwriting', 'cursive';
+    font-family: $cursive;
     font-weight: 600;
     font-size: 30px;
     line-height: .6;
