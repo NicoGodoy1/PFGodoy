@@ -423,7 +423,7 @@ header span {
   text-align: center;
   font-size: 35px; }
 
-.subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
+.subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulos_sobreChileCursive, .subtitulo__consultas {
   color: #030f46;
   background-color: white;
   max-width: auto;
@@ -619,13 +619,13 @@ header span {
     padding-top: 10px; }
   .tarjeta {
     margin-top: 10px; }
-  .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
+  .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulos_sobreChileCursive, .subtitulo__consultas {
     height: 80px;
     justify-content: center;
     align-items: center; } }
 
 @media (max-width: 576px) {
-  .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulo__consultas {
+  .subtituloInicio, .subtitulos_dondeIr, .subtitulos_sobreChile, .subtitulos_sobreChileCursive, .subtitulo__consultas {
     height: 80px;
     justify-content: center;
     align-items: center; }
@@ -908,6 +908,12 @@ header span {
     padding-bottom: 10px;
     line-height: 20px;
     margin-top: 10px; }
+
+.subtitulos_sobreChileCursive {
+  font-family: 'Lucida handwriting', 'cursive';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: .6; }
 
 .imagenesSobreChile {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6); }

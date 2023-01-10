@@ -38,6 +38,14 @@
 .subtitulos_sobreChile {
     @extend .subtituloInicio;
 }
+.subtitulos_sobreChileCursive {
+    @extend .subtituloInicio;
+    font-family: 'Lucida handwriting', 'cursive';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: .6;
+
+}
 .imagenesSobreChile {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
 }
