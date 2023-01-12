@@ -1,4 +1,4 @@
-# PROYECTO DESARROLLO WEB: SEGUNDO DESAFIO
+# PROYECTO FINAL DEL CURSO DE DESARROLLO WEB: 
 *Nombre del archivo: PreEntrega3Godoy*
 
 ## Nombre del alumno
