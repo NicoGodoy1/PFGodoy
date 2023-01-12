@@ -5,8 +5,8 @@
     @extend .tituloInicio;
 }
 .galeria_container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: (4, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     justify-items:center;

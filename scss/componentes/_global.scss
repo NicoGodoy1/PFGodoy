@@ -135,7 +135,7 @@ a:link, a:visited {
     }
 }
  @mixin rotador($deg){
-    transition: scale 0.5s, rotate 0.5s;
+    transition: scale 0.3s, rotate 0.3s;
     transition: transform 0.3s ease-in-out 0.3s;
 
     &:hover {

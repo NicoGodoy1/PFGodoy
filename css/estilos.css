@@ -116,7 +116,7 @@ a:link, a:visited {
     background-color: #647ce7; } }
 
 .rotarFavicon {
-  transition: scale 0.5s, rotate 0.5s;
+  transition: scale 0.3s, rotate 0.3s;
   transition: transform 0.3s ease-in-out 0.3s; }
   .rotarFavicon:hover {
     transform: rotate(-3deg) scale(1.1); }
@@ -1154,8 +1154,8 @@ header span {
   background-color: #FFFFFF; }
 
 .galeria_container {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat 4, 1fr;
+  grid-template-rows: 4, 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   justify-items: center;
