@@ -227,6 +227,8 @@ footer {
     color: #94a3b8; }
 
 @media (max-width: 576px) {
+  .pie-pagina {
+    height: 700px; }
   .pie-pagina__copyright {
     font-size: 12px;
     width: 300px; }

@@ -125,6 +125,9 @@ footer {
 
 // MEDIAQUERIES
 @media (max-width: $bpSmall) {
+  .pie-pagina {
+    height: 700px;
+  }
   .pie-pagina__copyright {
     font-size: 12px;
     width: 300px;
