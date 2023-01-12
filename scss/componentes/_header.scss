@@ -68,6 +68,6 @@
 
 }
 
-.rotarFavicon:hover {
-    @include rotador(-5deg);
+.rotarFavicon{
+    @include rotador(-3deg);
 }
