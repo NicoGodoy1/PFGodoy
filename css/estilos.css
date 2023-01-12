@@ -116,7 +116,9 @@ a:link, a:visited {
     background-color: #647ce7; } }
 
 .rotarFavicon:hover {
-  transform: rotate(-15deg); }
+  transition: 0.3s;
+  transform: rotate(-15deg) scale(1.1);
+  transition-timing-function: ease-in-out; }
 
 footer {
   color: grey;
