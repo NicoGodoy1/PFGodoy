@@ -324,6 +324,13 @@ header span {
     @include Button($blueButton);
 }
 
+// EFECTO HOVER OPACIDAD HERMANOS 
+.efectoOpacidad {
+    transition: 0.3s;
+}
+.contenedorOpacidad:hover > :not(:hover) {
+    opacity: 0.8;
+}
 // MEDIA QUERIES 
 
 @media (max-width: $bpLarge ) {
