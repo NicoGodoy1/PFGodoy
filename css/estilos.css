@@ -116,9 +116,10 @@ a:link, a:visited {
     background-color: #647ce7; } }
 
 .rotarFavicon:hover {
-  transition: 0.3s;
-  transform: rotate(-15deg) scale(1.1);
-  transition-timing-function: ease-in-out; }
+  transform: rotate(-5deg) scale(1.1);
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  transition-duration: 0.5s; }
 
 footer {
   color: grey;

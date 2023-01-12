@@ -135,11 +135,11 @@ a:link, a:visited {
     }
 }
  @mixin rotador($deg){
-    transition: 0.3s;
     transform: rotate($deg) scale(1.1) ;
     // transform: scale(1.2);
-    transition-timing-function: ease-in-out;
-    
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
  }
 
 // EXTENDS 
