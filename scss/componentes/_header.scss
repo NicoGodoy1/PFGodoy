@@ -67,3 +67,7 @@
     }
 
 }
+
+.rotarFavicon:hover {
+    @include rotador(-15deg);
+}

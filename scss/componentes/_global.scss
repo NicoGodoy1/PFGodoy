@@ -23,7 +23,7 @@ body {
     font-style: normal;
 }
 
-/* GLOBAL */
+//  GLOBAL
 a {
     text-decoration: none;
 }
@@ -134,6 +134,10 @@ a:link, a:visited {
       align-items: center;
     }
 }
+ @mixin rotador($deg){
+    transform: rotate($deg);
+      
+ }
 
 // EXTENDS 
 .gradienteLinear {
