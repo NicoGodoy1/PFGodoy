@@ -508,7 +508,7 @@ header span {
   width: 100%; }
 
 .articuloInicio {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 10px 40px -15px #ede9e9;
   border-radius: 5px;
   background-color: transparent;
   padding: 0px; }
