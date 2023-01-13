@@ -1028,6 +1028,9 @@ header span {
 .sectionConsultas {
   background-color: #FFFFFF; }
 
+.subtitulo__consultas {
+  background-color: #FFFFFF !important; }
+
 .fieldset__consulta {
   margin: 60px;
   height: 430px;
