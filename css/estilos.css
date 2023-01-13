@@ -909,6 +909,9 @@ header span {
   padding-right: 20px;
   border-radius: 5px; }
 
+.tarjetas_sobreChile {
+  padding: 50px; }
+
 .contenidosSobreChile {
   display: inline-block;
   text-align: justify;
@@ -917,7 +920,7 @@ header span {
   padding-bottom: 10px;
   line-height: 40px;
   margin-top: 10px;
-  padding-top: 20px; }
+  padding: 10px; }
   .contenidosSobreChile ol {
     display: inline-block;
     text-align: justify;
@@ -934,7 +937,8 @@ header span {
   line-height: .6; }
 
 .imagenesSobreChile {
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6); }
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  padding: 0px; }
 
 .section__lista {
   border: 250;
