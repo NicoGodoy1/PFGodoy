@@ -1,5 +1,6 @@
 .sectionSobreChile {
     background-color: $lightBackground;
+    margin-top: 20px;
 }
 .titulos_sobreChile {
     @extend .tituloInicio;
@@ -15,6 +16,7 @@
 }
 .tarjetas_sobreChile {
     padding: 50px;
+    margin-top: 20px;
 }
 .contenidosSobreChile {
     display: inline-block;

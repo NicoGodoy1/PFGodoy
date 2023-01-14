@@ -910,7 +910,8 @@ header span {
     margin: 10px 50px 10px 50px; } }
 
 .sectionSobreChile {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  margin-top: 20px; }
 
 .contenidoTituloSobreChile {
   background-color: #FFFFFF;
@@ -922,7 +923,8 @@ header span {
   border-radius: 5px; }
 
 .tarjetas_sobreChile {
-  padding: 50px; }
+  padding: 50px;
+  margin-top: 20px; }
 
 .contenidosSobreChile {
   display: inline-block;
