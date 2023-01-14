@@ -178,16 +178,19 @@ footer {
       margin-bottom: 35px;
       font-weight: bold;
       font-size: 20px;
-      text-align: center;
+      text-align: left;
       margin-bottom: 10px;
-      margin-top: 20px; }
+      margin-top: 20px;
+      padding-left: 50px; }
     .pie-pagina__contenido-lista li {
       margin: 10px 0;
       display: inline-block;
-      width: 200px; }
+      width: 200px;
+      text-align: left; }
     .pie-pagina__contenido-lista a {
       color: white;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      text-align: left; }
       .pie-pagina__contenido-lista a:hover {
         color: yellow;
         filter: blur(0.53px); }
@@ -250,7 +253,8 @@ footer {
       font-size: 14px;
       justify-content: start;
       margin-top: 2px;
-      margin-bottom: 2px; }
+      margin-bottom: 2px;
+      text-align: left; }
     .pie-pagina__contenido-rrss {
       margin-top: 10px; }
       .pie-pagina__contenido-rrss .rs-facebook {
