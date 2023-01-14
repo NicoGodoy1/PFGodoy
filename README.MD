@@ -1,5 +1,5 @@
 # PROYECTO FINAL DEL CURSO DE DESARROLLO WEB: 
-*Nombre del archivo: PreEntrega3Godoy*
+*Nombre del archivo: PFGodoy*
 
 ## Nombre del alumno
 *Nicolás Gastón Godoy*
