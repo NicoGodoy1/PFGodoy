@@ -794,12 +794,20 @@ header span {
 
 .contenidoVideo {
   margin: 20px 0px 20px 0px;
-  height: 250px;
+  height: 450px;
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
   padding-top: 20px;
   text-align: justify; }
+  .contenidoVideo__lista {
+    height: 100px;
+    text-align: left;
+    font-size: 15px; }
+    .contenidoVideo__lista p {
+      align-items: center;
+      font-size: 7px;
+      height: 5px; }
 
 .boton__dondeIr {
   border: none;
