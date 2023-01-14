@@ -793,19 +793,19 @@ header span {
     margin-top: 30px; }
 
 .contenidoVideo {
-  margin: 20px 0px 20px 0px;
+  margin: 5px 0px 5px 0px;
   height: 450px;
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 20px;
+  padding-top: 0px;
   text-align: justify; }
   .contenidoVideo__lista {
-    height: 100px;
+    height: 200px;
     text-align: left;
-    font-size: 15px; }
+    font-size: 15px;
+    line-height: 20px; }
     .contenidoVideo__lista p {
-      align-items: center;
       font-size: 7px;
       height: 5px; }
 
