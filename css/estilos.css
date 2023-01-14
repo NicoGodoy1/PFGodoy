@@ -997,6 +997,12 @@ header span {
     height: 150px;
     padding-top: 30px; } }
 
+@media (max-width: 768px) {
+  .subtitulos_sobreChileCursive {
+    padding: 10px;
+    line-height: 25px;
+    justify-content: start; } }
+
 @media (max-width: 576px) {
   .contenidoTituloSobreChile {
     background-color: #FFFFFF;
@@ -1023,7 +1029,9 @@ header span {
       padding-bottom: 10px;
       line-height: 15px;
       margin-top: 10px;
-      padding-top: 10px; } }
+      padding-top: 10px; }
+  .subtitulos_sobreChileCursive {
+    padding-bottom: 10px; } }
 
 .sectionConsultas {
   background-color: #FFFFFF; }

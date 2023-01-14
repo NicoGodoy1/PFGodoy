@@ -127,6 +127,13 @@
     }
 }
 
+@media (max-width: $bpMedium ){
+    .subtitulos_sobreChileCursive {
+        padding: 10px;
+        line-height: 25px;
+        justify-content: start;
+    }
+}
 @media (max-width: $bpSmall ) {
     .contenidoTituloSobreChile {
         background-color: $lightBackground;
@@ -160,5 +167,8 @@
             margin-top: 10px;
             padding-top: 10px;
         }
+    }
+    .subtitulos_sobreChileCursive {
+        padding-bottom: 10px;
     }
 }
