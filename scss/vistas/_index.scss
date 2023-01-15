@@ -213,15 +213,17 @@ header span {
 .estadisticasInicio {
     display: flex;
     justify-content: space-evenly;
-    &__dato {
+
+    &__dato span{
         height: 40px;
-    width: 100%;
-    font-style:oblique;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: lighter;
-    text-align: center;
-    display: inline-block;  
+        width: 100%;
+        font-style:oblique;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: lighter;
+        text-align: center;
+        display: inline-block;  
+        font-weight: 800;
     }
 }
 
@@ -547,6 +549,26 @@ header span {
         justify-content: center;
         align-items: center;
         // width: auto;
+    }
+    .estadisticasFondo {
+
+        background-image: url(/recursos/imagenes/foto_estadisticas4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: black;
+        font-weight: bold;
+        padding: 150px 20px;
+        margin-top: 80px;
+    }
+    .estadisticasInicio {
+        flex-direction: column;
+        
+        &__dato span{
+            grid-template-columns: 1fr;
+            background-color: transparent;
+        }
     }
 }
 @media (max-width: 498px) {
