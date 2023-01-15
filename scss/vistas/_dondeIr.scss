@@ -12,12 +12,16 @@
 }
 .subtitulos_dondeIr {
     @extend .subtituloInicio;
+    font-size: 35px;
     color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 .tarjetasDondeIr {
     // background: $lightBackground ;
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
     color: white;
+    margin-bottom: 20px;
 } 
 .imagen__zoit-dondeIr {
     border-radius: 20px;
@@ -40,7 +44,7 @@
     line-height: 40px;
     margin-top: 50px;
     & p {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 .contenidoVideo {
