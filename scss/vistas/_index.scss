@@ -10,7 +10,7 @@
     &ContenidoInicio {
         text-align: justify;
     }
-
+    
     &__enlace {
         background-color: #030f46;
         opacity: 0.9;
@@ -163,18 +163,7 @@ header span {
     font-size: $titleFontSize;
     font-weight: 800;
 }
-
 .subtituloInicio {
-    // background-color: $bgTitle;
-    // opacity: .6;
-    // color: $letterColor;
-    // max-width: auto;
-    // height: 35px; 
-    // border-top: 70px;
-    // padding-left: 20px;
-    // margin: 10px 0px 10px 0px;
-    // padding-bottom: 5px;
-    // font-size: $subtitleFontSize;
     color: #030f46;
     background-color: transparent;
     max-width: auto;
@@ -187,16 +176,14 @@ header span {
     justify-content: center;
     font-weight: bold;
 }
-
 // EXTENDS 
 .gradienteLinear {
     background: rgb(15,42,161);
     background: linear-gradient(0deg, rgba(15,42,161,1) 15%, rgba(3,15,70,0.9528186274509804) 80%);
 }
-// -----------------------------------
+// SECCION ESTADISTICAS
 .seccionEstadisticas {
-    // background-color:#030f46;
-
+    padding: 20px;
 }
 .estadisticasFondo {
 
@@ -226,28 +213,20 @@ header span {
         font-weight: 800;
     }
 }
-
-// -----------------------------------------
-
+// SECCION NUESTRA DIVERSIDAD 
 .seccionNuestraDiversidad {
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 1400px;
     text-align: center;
     align-items: center;
-    // background: $lightBackground ;
-    // PONERLE COLOR CON VARIABLE
     padding: 30px;
     color: white;
-    // background-color: #030f46;
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
-
-
 }
 .contenidoSubtituloInicio {
     border-radius: 10px;
     margin: 20px 10px 20px 10px;
-    // height: 100px; 
     display: inline-block;
     text-align: justify;
     line-height: 20px;
@@ -262,7 +241,6 @@ header span {
 }
 .subtituloNuestraDiversidad{
     background-color: transparent;
-    // opacity: .6;
     color: white;
     max-width: auto;
     height: 45px; 
@@ -290,7 +268,6 @@ header span {
     background-color: transparent;
     padding: 0px;
 }
-
 .efectoArticulo {
     transition: transform 0.5s ease-out 0.05s;
     position: relative;
@@ -340,7 +317,7 @@ header span {
     padding-right: 10px;
     padding-left: 30px;
 }
-// ---------------------------------------------------
+// BOTÓN INICIO
 .boton__inicio {
     @include Button($blueButton);
     background-color: transparent;
@@ -350,8 +327,7 @@ header span {
         color: white;
     }
 }
-
-// EFECTO HOVER OPACIDAD HERMANOS 
+// EFECTO HOVER OPACIDAD 
 .efectoOpacidad {
     transition: 0.3s;
 }
@@ -359,7 +335,6 @@ header span {
     opacity: 0.8;
 }
 // MEDIA QUERIES 
-
 @media (max-width: $bpLarge ) {
     .navbar-nav li {
         margin-left: 20px;         
@@ -396,22 +371,15 @@ header span {
         font-size: 14px;
     }
     
-    // tarjetas de eventos
+    // TARJETAS EVENTOS
     .proximosEventos {
         display: grid;
-        // flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 800px;
-        // width: 600px;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
     }
-    // .tarjeta {
-    //     align-items: center;
-    //     justify-content: center;
-    //     justify-content: center;
-    // }
     .tituloEventos {
         height: 30px;
         margin-top: 10px;
@@ -426,7 +394,7 @@ header span {
         align-items: center;
     }
 }
-
+// MEDIA QUERIES 576px
 @media (max-width: $bpSmall) {
     .subtituloInicio {
         height: 80px;
