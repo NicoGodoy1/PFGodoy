@@ -236,6 +236,7 @@ header span {
     align-items: center;
     // background: $lightBackground ;
     // PONERLE COLOR CON VARIABLE
+    padding: 30px;
     color: white;
     // background-color: #030f46;
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
@@ -340,7 +341,12 @@ header span {
 // ---------------------------------------------------
 .boton__inicio {
     @include Button($blueButton);
-    background-color: #2C74B3;
+    background-color: transparent;
+    & a {
+        background-color: #0A2647;
+        border:#0A2647 ;
+        color: white;
+    }
 }
 
 // EFECTO HOVER OPACIDAD HERMANOS 

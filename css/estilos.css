@@ -483,6 +483,7 @@ header span {
   max-width: 1400px;
   text-align: center;
   align-items: center;
+  padding: 30px;
   color: white;
   background-image: linear-gradient(45deg, #2C74B3, #0A2647); }
 
@@ -575,7 +576,7 @@ header span {
 .boton__inicio {
   border: none;
   background: #FFFFFF;
-  background-color: #2C74B3; }
+  background-color: transparent; }
   .boton__inicio a {
     border: none;
     margin-top: 20px;
@@ -601,6 +602,10 @@ header span {
     background-color: #030f46;
     color: white;
     font-weight: bolder; }
+  .boton__inicio a {
+    background-color: #0A2647;
+    border: #0A2647;
+    color: white; }
 
 .efectoOpacidad {
   transition: 0.3s; }
