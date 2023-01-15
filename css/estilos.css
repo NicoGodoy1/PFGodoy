@@ -967,8 +967,9 @@ header span {
 .subtitulos_sobreChileCursive {
   font-family: "Lucida handwriting", "cursive";
   font-weight: 600;
-  font-size: 30px;
-  line-height: .6; }
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px; }
 
 .imagenesSobreChile {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
