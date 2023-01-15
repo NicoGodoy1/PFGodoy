@@ -379,6 +379,7 @@ header span {
         margin-left: 50px;
         margin-right: 50px;
         padding-left: 10px;
+        padding-top: 40px;
         & img {
             height: 90px;
             width: 90px;
@@ -541,10 +542,10 @@ header span {
     }
     .contenidoGrid {
         height: 500px;
-        width: 500px;
+        width: 400px;
         padding-top: 20px;
         padding-left: 10px;
-        margin: 10px 20px 10px 20px;
+        margin: 10px 20px 10px 10px;
         font-size: 14px;
     }
     .RedesSociales {
@@ -572,10 +573,12 @@ header span {
     }
     .estadisticasInicio {
         flex-direction: column;
-        
+        font-size: 20px;
         &__dato span{
             grid-template-columns: 1fr;
             background-color: transparent;
+            font-size: 16px;
+            margin-top: 10px;
         }
     }
 }
