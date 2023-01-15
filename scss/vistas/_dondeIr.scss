@@ -12,9 +12,12 @@
 }
 .subtitulos_dondeIr {
     @extend .subtituloInicio;
+    color: white;
 }
 .tarjetasDondeIr {
-    background: $lightBackground ;
+    // background: $lightBackground ;
+    background-image: linear-gradient(45deg, #2C74B3, #0A2647);
+    color: white;
 } 
 .imagen__zoit-dondeIr {
     border-radius: 20px;
@@ -64,6 +67,18 @@
 }
 .boton__dondeIr {
     @include Button($blueButton);
+    margin-top: 20px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 400px;
+    & a {
+        display: inline;
+        align-items: center;
+        justify-content: center;    
+        background-color: transparent;   
+    }
 }
 
 .carousel {

@@ -807,8 +807,12 @@ header span {
   width: 600px;
   height: 400px; }
 
+.subtitulos_dondeIr {
+  color: white; }
+
 .tarjetasDondeIr {
-  background: #FFFFFF; }
+  background-image: linear-gradient(45deg, #2C74B3, #0A2647);
+  color: white; }
 
 .imagen__zoit-dondeIr {
   border-radius: 20px;
@@ -852,7 +856,13 @@ header span {
 
 .boton__dondeIr {
   border: none;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  margin-top: 20px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 400px; }
   .boton__dondeIr a {
     border: none;
     margin-top: 20px;
@@ -878,6 +888,11 @@ header span {
     background-color: #030f46;
     color: white;
     font-weight: bolder; }
+  .boton__dondeIr a {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; }
 
 .carousel {
   height: 600px; }
