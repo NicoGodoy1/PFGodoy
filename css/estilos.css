@@ -464,12 +464,13 @@ header span {
   margin-top: 80px; }
 
 .estadisticasFondo {
-  background-image: url(/recursos/imagenes/Parque-Metropolitano-de-Santiago.jpg);
+  background-image: url(/recursos/imagenes/foto_estadisticas4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: #fff;
+  color: #black;
+  font-weight: bold;
   padding: 150px 20px;
   margin-top: 80px; }
 
@@ -477,7 +478,7 @@ header span {
   height: 40px;
   width: 100%;
   font-style: oblique;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 30px;
   font-weight: lighter; }
 
