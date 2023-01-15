@@ -453,6 +453,9 @@ header span {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
+.seccionEstadisticas {
+  padding: 20px; }
+
 .estadisticasFondo {
   background-image: url(/recursos/imagenes/foto_estadisticas4.jpg);
   background-repeat: no-repeat;

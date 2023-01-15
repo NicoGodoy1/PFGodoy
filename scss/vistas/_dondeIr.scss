@@ -18,7 +18,6 @@
     margin-bottom: 25px;
 }
 .tarjetasDondeIr {
-    // background: $lightBackground ;
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
     color: white;
     margin-bottom: 20px;
@@ -67,7 +66,6 @@
             height: 5px;
         }
     }
-    
 }
 .boton__dondeIr {
     @include Button($blueButton);
@@ -84,19 +82,11 @@
         background-color: transparent;   
     }
 }
-
 .carousel {
     height: 600px;
-    // width: 444px;
     & img {
         height: 600px ;
-        // width: 444px;
     }
-    // &Section {
-    //     @extend .gradienteLinear;
-    //     margin: 20px 0px 20px 0px;
-    //     padding: 20px 0px 20px 0px;
-    // }
 }
 // MEDIA QUERIES 
 @media (max-width: $bpMedium) {
@@ -112,7 +102,6 @@
         }
     }
 }
-
 @media (max-width: $bpSmall) {
     .tarjetas_dondeIr {
         flex-direction: column;
