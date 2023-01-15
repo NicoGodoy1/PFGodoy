@@ -52,7 +52,7 @@ a:link, a:visited {
   font-size: xx-large;
   font-weight: bold; }
 
-.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
+.gradienteLinear, .pie-pagina, .seccionNuestraDiversidad, .fondoConsultas {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
@@ -448,22 +448,36 @@ header span {
   justify-content: center;
   font-weight: bold; }
 
-.gradienteLinear, .pie-pagina, .estadisticasFondo, .seccionNuestraDiversidad, .carouselSection, .fondoConsultas {
+.gradienteLinear, .pie-pagina, .seccionNuestraDiversidad, .fondoConsultas {
   background: #0f2aa1;
   background: linear-gradient(0deg, #0f2aa1 15%, rgba(3, 15, 70, 0.952819) 80%); }
 
 .seccionEstadisticas {
-  background-color: white; }
+  background-color: white;
+  background-image: url(/recursos/imagenes/Parque-Metropolitano-de-Santiago.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 150px 20px;
+  margin-top: 80px; }
 
 .estadisticasFondo {
-  color: white; }
+  background-image: url(/recursos/imagenes/Parque-Metropolitano-de-Santiago.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 150px 20px;
+  margin-top: 80px; }
 
-.estadisticasInicio p {
+.estadisticasInicio p ul {
   height: 40px;
-  width: 500px;
-  margin: 20px 100px 20px 80px;
+  width: 100%;
   font-style: oblique;
-  font-size: 10px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: lighter; }
 
@@ -554,7 +568,7 @@ header span {
 .contenidoImagenInicio {
   display: inline-block;
   text-align: justify;
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 10px;
   line-height: 30px;
   margin-top: 30px;
@@ -843,14 +857,9 @@ header span {
     font-weight: bolder; }
 
 .carousel {
-  height: 300px;
-  width: 444px; }
+  height: 600px; }
   .carousel img {
-    height: 300px;
-    width: 444px; }
-  .carouselSection {
-    margin: 20px 0px 20px 0px;
-    padding: 20px 0px 20px 0px; }
+    height: 600px; }
 
 .seccion__regiones {
   display: grid;
