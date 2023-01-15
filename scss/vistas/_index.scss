@@ -148,9 +148,8 @@ header span {
 }
 // --------------------------------------------
 .tituloInicio {
-    background-color: $bgTitle ;
-    opacity: .8;
-    color: $letterColor;
+    background-color: transparent ;
+    color: $blueButton;
     max-width: 1800px;
     height: 50px; 
     margin-top: 20px ;
@@ -162,6 +161,7 @@ header span {
     padding-bottom: 5px;
     text-align: center;
     font-size: $titleFontSize;
+    font-weight: 800;
 }
 
 .subtituloInicio {
@@ -176,7 +176,7 @@ header span {
     // padding-bottom: 5px;
     // font-size: $subtitleFontSize;
     color: #030f46;
-    background-color: white;
+    background-color: transparent;
     max-width: auto;
     height: 35px; 
     border-top: 70px;
