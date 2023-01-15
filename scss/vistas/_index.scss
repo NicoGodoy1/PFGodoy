@@ -83,7 +83,6 @@
 }
 .gridHover {
     transition: transform 0.5s ease-out 0.05s;
-
     &:hover {
         transform: scale(1.1);
     }
@@ -92,9 +91,10 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
-    background: $lightBackground ;
-    margin-bottom: 50px;
+    background-image: linear-gradient(45deg, #2C74B3, #0A2647);
+    margin-bottom: 10px;
     height: 650px;
+    color: white;
 }
 .contenidoGrid {
     justify-content: center;
@@ -134,8 +134,7 @@
     height: 500px;
     width: 500px;
     display: inline-block;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    gap: 20px;
 }
 .noMostrar {
     display: none;
@@ -208,7 +207,7 @@ header span {
     color: black;
     font-weight: bold;
     padding: 150px 20px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 .estadisticasInicio {
     display: flex;
@@ -239,7 +238,8 @@ header span {
     // PONERLE COLOR CON VARIABLE
     color: white;
     // background-color: #030f46;
-    @extend .gradienteLinear;
+    background-image: linear-gradient(45deg, #2C74B3, #0A2647);
+
 
 }
 .contenidoSubtituloInicio {
@@ -258,7 +258,7 @@ header span {
     color: black;
 }
 .subtituloNuestraDiversidad{
-    background-color: $bgTitle;
+    background-color: transparent;
     // opacity: .6;
     color: white;
     max-width: auto;
@@ -340,6 +340,7 @@ header span {
 // ---------------------------------------------------
 .boton__inicio {
     @include Button($blueButton);
+    background-color: #2C74B3;
 }
 
 // EFECTO HOVER OPACIDAD HERMANOS 
