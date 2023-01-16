@@ -99,6 +99,29 @@
         height: 600px ;
     }
 }
+.viveChile {
+    display: flex;
+    & h4 {
+        @extend .backgroundGradiente;
+        height: 100px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 40px;
+        padding: 30px;
+        border-radius: 7px 0px 0px 7px;
+    }
+    & p {
+        background-color: yellowgreen;
+        height: 100px;
+        width: auto;
+        padding: 30px;
+        border-radius: 0px 7px 7px 0px;
+        font-weight: bold;
+    }
+    
+}
 // MEDIA QUERIES 
 @media (max-width: $bpMedium) {
     .seccion__regiones {
@@ -129,6 +152,21 @@
                 font-size: 13px;
             }
         }
+    }
+    .viveChile {
+        display: flex;
+        & h4 {
+            font-size: 25px;
+            padding: 30px;
+        }
+        & p {
+            font-size: 15px;
+            background-color: $green;
+            height: 100px;
+            width: auto;
+            padding: 20px 40px 30px 30px;
+        }
+        
     }
 }
 @media (max-width: $bpSmall) {
