@@ -791,7 +791,11 @@ header span {
       grid-template-columns: 1fr;
       background-color: transparent;
       font-size: 16px;
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  .estilo {
+    margin: 20px;
+    text-align: justify;
+    padding: 40px; } }
 
 @media (max-width: 498px) {
   .contenidoImagenInicio {
