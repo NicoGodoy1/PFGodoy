@@ -38,6 +38,10 @@
         margin-top: 10px;
 
     }
+    & p {
+        line-height: 25px;
+        font-size: 17px;
+    }
 }
 .subtitulos_sobreChile {
     @extend .subtituloInicio;
@@ -167,16 +171,17 @@
     .contenidosSobreChile {
         font-size: 15px;
         & p {
-            font-size: 14px;
+            font-size: 12px;
             margin: 5px 0px 5px 0px;
             padding-bottom: 10px;
-            line-height: 15px;
+            line-height: 20px;
             margin-top: 10px;
             padding-top: 10px;
         }
     }
     .subtitulos_sobreChileCursive {
         padding-bottom: 10px;
+        height: 50px;
     }
     .seccion__regiones {
         display: grid;
