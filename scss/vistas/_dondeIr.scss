@@ -135,15 +135,6 @@
         font-size: 10px;
         line-height: normal;
     }
-    .carousel {
-        height: 200px;
-        width: 350px;
-
-        & img {
-            height: 200px;
-            width: 350px ;
-        }
-    }
     .seccion__regiones {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

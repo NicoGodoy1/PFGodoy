@@ -947,12 +947,6 @@ header span {
   .imagen__contenido-dondeIr {
     font-size: 10px;
     line-height: normal; }
-  .carousel {
-    height: 200px;
-    width: 350px; }
-    .carousel img {
-      height: 200px;
-      width: 350px; }
   .seccion__regiones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1300,7 +1294,13 @@ header span {
     height: 100px; }
   .galeriaHover {
     width: 100px;
-    height: 100px; } }
+    height: 100px; }
+  .carousel {
+    height: 300px;
+    width: 350px; }
+    .carousel img {
+      height: 300px;
+      width: 350px; } }
 
 .textoImagen {
   display: flex;
