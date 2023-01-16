@@ -860,10 +860,12 @@ header span {
   padding-top: 0px;
   text-align: justify; }
   .contenidoVideo__lista {
-    height: 200px;
-    text-align: left;
-    font-size: 15px;
-    line-height: 20px; }
+    padding: 20px; }
+    .contenidoVideo__lista ul {
+      height: 200px;
+      text-align: left;
+      font-size: 15px;
+      line-height: 20px; }
     .contenidoVideo__lista p {
       font-size: 7px;
       height: 5px; }
@@ -929,7 +931,11 @@ header span {
     padding: 10px; }
   .boton__dondeIr {
     margin-top: 5px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center; }
+  .contenidoVideo__lista ul {
+    font-size: 13px; } }
 
 @media (max-width: 576px) {
   .tarjetas_dondeIr {

@@ -60,10 +60,15 @@
     text-align: justify;
 
     &__lista {
-        height: 200px;
-        text-align: left;
-        font-size: 15px;
-        line-height: 20px;
+        padding: 20px;
+
+        & ul {
+            height: 200px;
+            text-align: left;
+            font-size: 15px;
+            line-height: 20px;
+        } 
+        
 
         & p{
             font-size: 7px;
@@ -115,6 +120,15 @@
     .boton__dondeIr {
         margin-top: 5px;
         margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenidoVideo {
+        &__lista {
+            & ul {
+                font-size: 13px;
+            }
+        }
     }
 }
 @media (max-width: $bpSmall) {
