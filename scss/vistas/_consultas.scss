@@ -8,7 +8,6 @@
 .subtitulo__consultas {
     @extend .subtituloInicio;
 }
-
 .fondoConsultas {
     @extend .gradienteLinear;
 }
@@ -50,7 +49,6 @@
         border-radius: 5px;
     }
 }
-
 .contenidoImagenConsultas {
     display: inline-block;
     text-align: justify;
@@ -90,12 +88,6 @@
 .botonEnviar {
     margin-top: 10px;
 }
-/* -------------------------------- */
-// .textoImagen {
-//     display: flex;
-//     align-items: center;
-//     justify-content:space-evenly;
-// }
 .seccionContactos {
     height: 300px;
 
@@ -114,7 +106,6 @@
         font-size: 15px;
     }
 }
-
 .mapa {
     display: flex;
 }
@@ -146,7 +137,6 @@
         margin: 10px 0px 20px 0px;
         padding-bottom: 20px;
         line-height: 40px;
-       
     }
     .lista__contactos {
         font-style: italic;
@@ -162,5 +152,3 @@
         }    
     }
 }
-
-// -----------------------------------
