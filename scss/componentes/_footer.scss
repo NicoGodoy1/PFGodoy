@@ -152,7 +152,7 @@ footer {
 }
 @media (max-width: $bpSmall) {
   .pie-pagina {
-    height: 700px;
+    height: 900px;
   }
   .pie-pagina__copyright {
     font-size: 12px;
@@ -198,6 +198,13 @@ footer {
           justify-content: start;
         }
       }
+    }
+    &-premios {
+      margin-top: 30px;
+      padding-left: 20px;
+      width: 400px;
+      height: 100px;
+      
     }
     
   }

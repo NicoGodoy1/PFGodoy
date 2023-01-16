@@ -255,7 +255,7 @@ footer {
 
 @media (max-width: 576px) {
   .pie-pagina {
-    height: 700px; }
+    height: 900px; }
   .pie-pagina__copyright {
     font-size: 12px;
     width: 300px; }
@@ -300,7 +300,12 @@ footer {
         color: lightblue;
         font-size: 20px;
         transition: 0.3s;
-        justify-content: start; } }
+        justify-content: start; }
+    .pie-pagina__contenido-premios {
+      margin-top: 30px;
+      padding-left: 20px;
+      width: 400px;
+      height: 100px; } }
 
 .tarjeta {
   background-color: #fff;
