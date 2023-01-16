@@ -192,7 +192,7 @@ footer {
       transition: all 0.3s;
       text-align: left; }
       .pie-pagina__contenido-lista a:hover {
-        color: yellow;
+        color: yellowgreen;
         filter: blur(0.53px); }
     .pie-pagina__contenido-rrss {
       display: flex;
