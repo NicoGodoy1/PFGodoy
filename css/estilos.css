@@ -229,10 +229,28 @@ footer {
         transition: all 0.3s; }
         .pie-pagina__contenido-rrss .rs-email:hover {
           color: yellow; }
+    .pie-pagina__contenido-premios {
+      margin-top: 50px;
+      padding-left: 20px;
+      width: 550px;
+      height: 150px; }
   .pie-pagina__copyright {
     margin-top: 40px;
     text-align: center;
     color: #94a3b8; }
+
+@media (max-width: 768px) {
+  .pie-pagina {
+    height: 1200px; }
+    .pie-pagina__contenido {
+      grid-template-columns: 2fr; }
+      .pie-pagina__contenido-lista {
+        width: 270px; }
+        .pie-pagina__contenido-lista a {
+          justify-content: left; }
+    .pie-pagina__copyright {
+      font-size: 13px;
+      padding-left: 20px; } }
 
 @media (max-width: 576px) {
   .pie-pagina {
@@ -282,16 +300,6 @@ footer {
         font-size: 20px;
         transition: 0.3s;
         justify-content: start; } }
-
-@media (max-width: 768px) {
-  .pie-pagina {
-    height: 1000px; }
-    .pie-pagina__contenido {
-      grid-template-columns: 2fr; }
-      .pie-pagina__contenido-lista {
-        width: 270px; }
-        .pie-pagina__contenido-lista a {
-          justify-content: left; } }
 
 .tarjeta {
   background-color: #fff;
