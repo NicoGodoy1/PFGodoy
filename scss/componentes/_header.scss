@@ -1,10 +1,8 @@
 // ENCABEZADO 
-
 .encabezado {
     background-color: #030f46;
     opacity: 0.95;
     z-index: 100;
-
 
     &__contenido-logo {
         color: $letterColor;
@@ -41,11 +39,9 @@
         font-size: 30px; 
     }
 }
-
 .nav-item a {
     @include ActiveButton( $activeButton);
 }
-
 .navbar-nav li {
     @include LastChild( $activeButton);  
 }
@@ -54,7 +50,6 @@
      .encabezado__contenido-menu {
         display: none;
     }
-
     .encabezado__contenido-menu-celular {
         display: inline-block;
     }   
@@ -65,9 +60,7 @@
         margin-right: 40px;
         background-color: #647ce7;
     }
-
 }
-
 .rotarFavicon{
     @include rotador(-3deg);
 }

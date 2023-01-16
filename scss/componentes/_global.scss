@@ -15,14 +15,12 @@
     src: url('../recursos/tipografias/Inter-VariableFont_slnt\,wght.ttf');
     font-weight: bold; 
 }
-
 body {
     background-color: $darkBackground;
     font-family: 'Inter', sans-serif;
     src: url('../recursos/tipografias/Inter-VariableFont_slnt\,wght.ttf');
     font-style: normal;
 }
-
 //  GLOBAL
 a {
     text-decoration: none;
@@ -36,7 +34,6 @@ li {
     list-style-type: none;
     display: inline;   
 }
-
 a:link, a:visited {
     text-decoration: none;
   }
@@ -56,9 +53,7 @@ a:link, a:visited {
     font-size:xx-large;
     font-weight: bold;
 }
-
 // MIXINS
-
 // buttons
 @mixin Button($color) {
     border: none;
@@ -91,9 +86,7 @@ a:link, a:visited {
         color: $letterColor;
         font-weight: bolder;
     }
-   
 }
-
 @mixin ActiveButton($color) {
     padding: 5px;
     border-radius: 10px;
@@ -103,7 +96,7 @@ a:link, a:visited {
         color: black !important;
     }
 } 
-
+//lastchild
 @mixin LastChild($color) {
     &:last-child  {
         border-color: $color;
@@ -112,7 +105,6 @@ a:link, a:visited {
         margin-left: 20px;
     }
 }
-
 @mixin interactiveButton($length) {
     &:hover::after {
         position: absolute;
@@ -140,10 +132,8 @@ a:link, a:visited {
 
     &:hover {
         transform: rotate($deg) scale(1.1) ;
-    }
-    
+    }  
  }
-
 // EXTENDS 
 .gradienteLinear {
     background: rgb(15,42,161);
