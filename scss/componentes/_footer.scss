@@ -48,7 +48,7 @@ footer {
 .pie-pagina {
   // background-color: $footerBackground;
   @extend .gradienteLinear;
-  color: white;
+  color: $letterColor;
   padding: 20px 10px;
 
   &__contenido {
@@ -75,8 +75,7 @@ footer {
       }
 
       a {
-        // color: $footerText;
-        color: white;
+        color: $letterColor;
         transition: $transition;
         text-align: left;
 
