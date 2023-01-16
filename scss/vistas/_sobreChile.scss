@@ -44,7 +44,7 @@
 }
 .subtitulos_sobreChileCursive {
     @extend .subtituloInicio;
-    font-family: $cursive;
+    font-style: italic;
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
