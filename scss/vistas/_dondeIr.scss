@@ -13,13 +13,13 @@
 .subtitulos_dondeIr {
     @extend .subtituloInicio;
     font-size: 35px;
-    color: white;
+    color: $letterColor;
     font-weight: 800;
     margin-bottom: 25px;
 }
 .tarjetasDondeIr {
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
-    color: white;
+    color: $letterColor;
     margin-bottom: 20px;
 
     & div {
@@ -105,7 +105,7 @@
         @extend .backgroundGradiente;
         height: 100px;
         width: 100%;
-        color: white;
+        color: $letterColor;
         text-align: center;
         vertical-align: middle;
         font-size: 40px;

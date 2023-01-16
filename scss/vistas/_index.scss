@@ -221,7 +221,7 @@ header span {
     text-align: center;
     align-items: center;
     padding: 30px;
-    color: white;
+    color: $letterColor;
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
 }
 .contenidoSubtituloInicio {
@@ -241,7 +241,7 @@ header span {
 }
 .subtituloNuestraDiversidad{
     background-color: transparent;
-    color: white;
+    color: $letterColor;
     max-width: auto;
     height: 45px; 
     border-top: 70px;
