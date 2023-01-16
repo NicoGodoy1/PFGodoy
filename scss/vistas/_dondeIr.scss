@@ -74,6 +74,7 @@
 .boton__dondeIr {
     @include Button($blueButton);
     margin-top: 10px;
+    margin-bottom: 10px;
     display: inline;
     align-items: center;
     justify-content: center;
