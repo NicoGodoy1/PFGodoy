@@ -1231,6 +1231,8 @@ header span {
   align-items: center; }
 
 @media (max-width: 576px) {
+  .seccionConsultas {
+    padding: 10px; }
   .contenidoImagenConsultas {
     display: inline-block;
     text-align: justify;
@@ -1240,14 +1242,9 @@ header span {
     line-height: 40px; }
   .lista__contactos {
     font-style: italic;
-    padding: 10px 0px 10px 0px;
-    height: 50px;
-    font-size: 15px;
-    margin-bottom: 5px;
-    margin-bottom: 10px; }
-    .lista__contactos h5 {
-      font-size: 10px;
-      margin-bottom: 5px; } }
+    padding: 0px;
+    height: 20px;
+    font-size: 15px; } }
 
 .sectionGaleria {
   background-color: #FFFFFF; }
