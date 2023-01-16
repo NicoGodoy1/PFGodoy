@@ -39,7 +39,6 @@
 
     }
 }
-
 .subtitulos_sobreChile {
     @extend .subtituloInicio;
 }
@@ -50,13 +49,11 @@
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 10px;
-
 }
 .imagenesSobreChile {
     box-shadow: $shadow;
     padding: 0px;
 }
-
 .section__lista {
     border: 250;
     margin: 400px;
@@ -82,7 +79,6 @@
 .div__sobreChile {
     display: block;
 }
-
 .efectoTarjetaSobreChile {
     @extend .efectoTarjeta;
     transition: transform 0.3s;
@@ -99,17 +95,14 @@
     transition: 0.3s; 
 }
 // PSEUDOELEMENTOS
-
 .firstLineBlue::first-line {
     color: blue;
     font-weight: bold;
 }
-  
 .selectorMagenta p::selection {
     background-color: magenta;
 }
-// GRADIENTE PRUEBA
-
+// GRADIENTE CON ANIMACIÓN
 .backgroundGradiente {
     background: linear-gradient(90deg, #030f46, #8599f1);
     background-size: 400% 400%;
@@ -126,7 +119,6 @@
         background-position: 0 50%;
     }
 }
-
 // MEDIA QUERIES
 @media (max-width: 857px) {
     .contenidoTituloSobreChile {
@@ -136,7 +128,6 @@
         padding-top: 30px;
     }
 }
-
 @media (max-width: $bpMedium ){
     .subtitulos_sobreChileCursive {
         padding: 10px;
