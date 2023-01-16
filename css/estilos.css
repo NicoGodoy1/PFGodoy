@@ -250,7 +250,8 @@ footer {
           justify-content: left; }
     .pie-pagina__copyright {
       font-size: 13px;
-      padding-left: 20px; } }
+      padding-left: 20px;
+      margin-bottom: 20px; } }
 
 @media (max-width: 576px) {
   .pie-pagina {
