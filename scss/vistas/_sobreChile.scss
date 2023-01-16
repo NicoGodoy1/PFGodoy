@@ -91,6 +91,7 @@
         transform: translateY(-10px);
     }
 }
+// ESTILO REGIONES CHILE 
 .seccion__regiones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -101,6 +102,18 @@
 
     &-dato {
         margin: 20px;        
+    }
+}
+.fondoRegiones {
+    background-image: linear-gradient(45deg, #2C74B3, #0A2647);
+    & div {
+        & div {
+            & h5 {
+                color: $letterColor;
+                font-weight: bold;
+                font-size: 22px;
+            }
+        }
     }
 }
 // PSEUDOELEMENTOS

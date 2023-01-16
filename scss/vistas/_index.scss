@@ -252,7 +252,7 @@ header span {
 }
 .contenidoSubtituloNuestraDiversidad {
     @extend .contenidoSubtituloInicio;
-    color: white;
+    color: $letterColor;
     background-color: transparent;
     font-size: 20px;
     margin: 30px 0px 30px 0px;
