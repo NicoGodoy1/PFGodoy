@@ -69,7 +69,6 @@
             line-height: 20px;
         } 
         
-
         & p{
             font-size: 7px;
             height: 5px;
@@ -113,7 +112,7 @@
         border-radius: 7px 0px 0px 7px;
     }
     & p {
-        background-color: yellowgreen;
+        background-color: $green;
         height: 100px;
         width: auto;
         padding: 30px;
