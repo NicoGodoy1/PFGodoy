@@ -1049,6 +1049,7 @@ header span {
     margin-top: 10px; }
 
 .subtitulos_sobreChileCursive {
+  font-family: "lucida sans regular";
   font-style: italic;
   font-weight: 600;
   font-size: 25px;
