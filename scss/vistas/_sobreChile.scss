@@ -93,6 +93,10 @@
     margin: 30px 50px 10px 50px;
     color: black;
     transition: 0.3s; 
+
+    &-dato {
+        margin: 20px;        
+    }
 }
 // PSEUDOELEMENTOS
 .firstLineBlue::first-line {
@@ -143,11 +147,12 @@
         padding-top: 30px;
     }
     .contenidoTituloSobreChile {
-        padding-top: 10px;
+        padding-top: 20px;
     }
     .tarjetas_sobreChile {
         flex-direction: column;
         width: 450px;
+        padding: 10px;
     }
     .imagenes__sobreChile {
         margin-left: 50px;
@@ -171,5 +176,29 @@
     }
     .subtitulos_sobreChileCursive {
         padding-bottom: 10px;
+    }
+    .seccion__regiones {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+        margin: 30px 50px 10px 50px;
+        color: black;
+        transition: 0.3s; 
+        margin-bottom: 10px;
+
+        & h3 {
+            font-size: 20px;
+            width: 150px;
+            height: 180px;
+            margin: 10px;
+        } 
+
+        &-dato {
+            width: 150px;
+            height: 300px;
+            margin: 5px; 
+            font-size: 13px; 
+                  
+        }
     }
 }
