@@ -21,6 +21,10 @@
     background-image: linear-gradient(45deg, #2C74B3, #0A2647);
     color: white;
     margin-bottom: 20px;
+
+    & div {
+        padding: 48px;
+    }
 } 
 .imagen__zoit-dondeIr {
     border-radius: 20px;
@@ -39,7 +43,7 @@
     text-align: justify;
     font-size: 20px;
     margin: 20px 0px 20px 0px;
-    padding-bottom: 20px;
+    padding: 48px;
     line-height: 40px;
     margin-top: 50px;
     & p {
@@ -69,7 +73,7 @@
 }
 .boton__dondeIr {
     @include Button($blueButton);
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline;
     align-items: center;
     justify-content: center;
@@ -79,7 +83,8 @@
         display: inline;
         align-items: center;
         justify-content: center;    
-        background-color: transparent;   
+        background-color: transparent; 
+        margin-bottom: 20px;  
     }
 }
 .carousel {
@@ -99,7 +104,16 @@
     .contenidoImagen {
         & p {
             font-size: 15px;
+            padding: 5px;
+            margin-bottom: 10px;
         }
+    }
+    .tarjetasDondeIr div{
+        padding: 10px;
+    }
+    .boton__dondeIr {
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: $bpSmall) {
