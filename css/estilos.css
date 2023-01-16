@@ -925,11 +925,6 @@ header span {
     background-color: transparent;
     margin-bottom: 20px; }
 
-.carousel {
-  height: 600px; }
-  .carousel img {
-    height: 600px; }
-
 .viveChile {
   display: flex; }
   .viveChile h4 {
@@ -1363,13 +1358,7 @@ header span {
     height: 100px; }
   .galeriaHover {
     width: 100px;
-    height: 100px; }
-  .carousel {
-    height: 300px;
-    width: 350px; }
-    .carousel img {
-      height: 300px;
-      width: 350px; } }
+    height: 100px; } }
 
 .textoImagen {
   display: flex;
