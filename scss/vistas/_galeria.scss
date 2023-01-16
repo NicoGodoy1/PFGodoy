@@ -38,13 +38,7 @@
         overflow: hidden; 
     }
 }
-// CAROUSEL 
-// .carousel {
-//     height: 600px;
-//     & img {
-//         height: 600px ;
-//     }
-// }
+
 //  MEDIA QUERIES
 @media (max-width: $bpSmall) {
     .galeria_container {
@@ -63,19 +57,4 @@
         width: 100px;
         height: 100px;
     } 
-    // .carousel {
-    //     height: 200PX;
-    //     width: 100%;
-
-    //     & img {
-    //         height: 200px;
-    //         width: 100% ;
-    //     }
-    // }
-    // .carousel-control-next {
-    //     display: none;
-    // }
-    // .carousel-control-prev {
-    //     height: ;
-    // }
 }
