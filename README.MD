@@ -7,6 +7,9 @@
 ## Comisión: 
 *Comisión 36420*
 
+## Descripción de Proyecto
+*Sitio de proyecto final del curso de _Desarrollo Web_ de CoderHouse.*. Desarrollé una página institucional chilena de turismo aplicando los conocimientos y tecnologías detallados abajo.
+
 ## Tecnologías Utilizadas
 - *HTML 5*
     -Listas
@@ -37,6 +40,3 @@
 ## Librerías para animaciones
 - *AOS*
 - *ANIMATE*
-
-## Descripción de Proyecto
-*En este proyecto final intento realizar una página institucional chilena sobre turismo aplicando los conocimientos que aprendo en el curso de _Desarrollo Web_ de CoderHouse.*
