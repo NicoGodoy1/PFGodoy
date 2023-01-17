@@ -966,7 +966,7 @@ header span {
   .viveChile {
     display: flex; }
     .viveChile h4 {
-      font-size: 25px;
+      font-size: 30px;
       padding: 30px; }
     .viveChile p {
       font-size: 15px;
@@ -1006,7 +1006,18 @@ header span {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin: 10px 50px 10px 50px; } }
+    margin: 10px 50px 10px 50px; }
+  .viveChile {
+    display: flex; }
+    .viveChile h4 {
+      font-size: 20px;
+      padding: 30px; }
+    .viveChile p {
+      font-size: 15px;
+      background-color: yellowgreen;
+      height: 100px;
+      width: auto;
+      padding: 20px 40px 30px 30px; } }
 
 .sectionSobreChile {
   background-color: #FFFFFF;
