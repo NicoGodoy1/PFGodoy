@@ -32,11 +32,11 @@
     - Colores
     - Navbar
 - *Sass*
-    - variables y mapas
-    - anidamientos (nesting y &)
-    - extend
-    - mixin e include
-    - each
+    - Variables y mapas
+    - Anidamientos (nesting y &)
+    - Extend
+    - Mixin e include
+    - Each
 
 ## Librerías para animaciones
 - *AOS*
