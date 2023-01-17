@@ -1,28 +1,21 @@
-.sectionGaleria {
-    background-color: $lightBackground;
-}
 .titulo-galeria {
     @extend .tituloInicio;
 }
-.galeria_container {
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: (4, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    justify-items:center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 30px;
+.galeria{
+    padding: 20px;
+    margin: 20px;
+    background-color: $lightBackground;
 
-    & img {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
+    &__fotos {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
     }
-    & div {
-        display: inline-block;
-        overflow: hidden;
-    }  
+    
+}
+.galeria img {
+    max-width: 400px;
+    padding: 5px;
 }
 .galeriaHover {
     transition: transform 1s ease-out 0.5s;
@@ -31,30 +24,43 @@
     width: 250px;
     align-items: center; 
     justify-content: center; 
-    overflow: hidden;
     
     &:hover {
         transform: scale(1.2);
-        overflow: hidden; 
     }
 }
-
 //  MEDIA QUERIES
-@media (max-width: $bpSmall) {
-    .galeria_container {
-        width: 225px;
-        height: 500px;
-        flex-direction: column;
-        margin-left: 10px;
-        align-items: center;
-        justify-content: center;
+@media (max-width: $bpMedium) {
+    .galeria{
+        padding: 20px;
+        margin: 20px;
+        background-color: $lightBackground;
+    
+        &__fotos {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+        }  
     }
-    .galeria_container img {
-        width: 100px;
-        height: 100px;
-    } 
-    .galeriaHover {
-        width: 100px;
-        height: 100px;
-    } 
+    .galeria img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media (max-width: $bpSmall) {
+    .galeria{
+        padding: 10px;
+        margin: 10px;
+        background-color: $lightBackground;
+    
+        &__fotos {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+        } 
+    }
+    .galeria img {
+        max-width: 150px;
+        max-height: 150px;
+    }
 }
