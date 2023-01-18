@@ -590,6 +590,8 @@ header span {
   margin-top: 30px;
   padding-right: 10px;
   padding-left: 30px; }
+  .contenidoImagenInicio a {
+    color: white; }
 
 .boton__inicio {
   border: none;
