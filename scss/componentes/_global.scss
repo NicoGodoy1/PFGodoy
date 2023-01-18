@@ -58,6 +58,7 @@ a:link, a:visited {
 @mixin Button($color) {
     border: none;
     background: $lightBackground ;
+    margin-left: 50px;
 
     & a {
         border: none;

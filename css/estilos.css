@@ -594,6 +594,7 @@ header span {
 .boton__inicio {
   border: none;
   background: #FFFFFF;
+  margin-left: 50px;
   background-color: transparent; }
   .boton__inicio a {
     border: none;
@@ -886,6 +887,7 @@ header span {
 .boton__dondeIr {
   border: none;
   background: #FFFFFF;
+  margin-left: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline;
